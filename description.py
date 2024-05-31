@@ -40,3 +40,4 @@ with col2:
 
 if out["last_object_clicked_popup"]:
     st.button("Show More Data")
+    
