@@ -1,0 +1,1431 @@
+osm_id,amenity,healthcare,name,operator,source,opening_ho,addr_stree,addr_city
+11935637127,hospital,hospital,Greenville Hospital,NA,NA,NA,NA,NA
+5759607065,pharmacy,NA,NA,NA,NA,NA,NA,NA
+1590950161,pharmacy,NA,Pro-Life Pharmacy,NA,NA,NA,NA,NA
+1700719794,dentist,dentist,Beaver Clinic,NA,NA,Mo-Fr 09:00-18:00; Sa 10:00-15:00,Agostino Neto Road,Accra
+1700719799,dentist,NA,Bethel Dental Clinic,NA,NA,NA,NA,NA
+1728032224,clinic,clinic;doctor,Adabraka clinic,NA,NA,24-Jul,Farrar Avenue,"Castle Road,Accra"
+1728032238,doctors,clinic;doctor,Iran Clinic,NA,NA,24-Jul,Faanofaa Avenue,Accra
+1728032244,dentist,NA,New world dental clinic,NA,NA,NA,NA,NA
+1762080645,clinic,NA,Ashaiman Poly Clinic,NA,NA,NA,NA,NA
+1775866820,dentist,NA,Dr. S.B. Hantes Dental Clinic,NA,NA,NA,NA,NA
+1775866931,pharmacy,NA,Health Solutions,NA,NA,NA,NA,NA
+1775872487,doctors,doctor,Kumcji Hospital,NA,NA,NA,NA,NA
+1791548336,hospital,hospital,Tamale West Hospital,NA,NA,NA,NA,NA
+1793745315,hospital,hospital,Tamale Teaching Hospital,NA,NA,NA,NA,NA
+1799109618,pharmacy,pharmacy,Multi Pavum,NA,NA,NA,Hospital Road,NA
+1801462419,doctors,NA,NA,NA,NA,NA,NA,NA
+1813427817,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+1814485423,pharmacy,pharmacy,Riky Pharmacy,NA,NA,NA,NA,NA
+1815412130,pharmacy,pharmacy,Slava Pharmacy,NA,NA,NA,NA,NA
+1827548153,clinic,clinic,Medlab,NA,NA,Mo-Fr 07:00-18:00; Sa 09:00-12:00,NA,NA
+1877213265,pharmacy,pharmacy,Chamalt Pharmacy,NA,NA,NA,NA,NA
+1880284528,pharmacy,NA,NA,NA,NA,NA,NA,NA
+1880289111,pharmacy,pharmacy,Ethical Pharmacy,NA,NA,NA,NA,NA
+1896543297,dentist,clinic;dentist,Spaes Dental Clinic,NA,NA,"Mo, We-Fr 09:00-16:00; Tu 09:00-16:30; Sa 09:00-14:00",Asafoatse Odweni Lane,Accra
+1919300432,clinic,NA,Chansa CHPS,NA,"MVP,Columbia University",NA,NA,NA
+1919300503,clinic,NA,Wiesi CHPS,NA,"MVP,Columbia University",NA,NA,NA
+1919300445,clinic,NA,Gbedembilisi CHPS,NA,"MVP,Columbia University",NA,NA,NA
+1919300483,clinic,clinic,Uwasa CHPS,NA,"MVP,Columbia University",NA,NA,NA
+1919300474,clinic,NA,Kpasinkpe Health Centre,NA,"MVP,Columbia University",NA,NA,NA
+2026403682,pharmacy,NA,Day and Night Pharmacy,NA,NA,Mo- Su 08:00-23:00,NA,NA
+2026403692,pharmacy,NA,Westlife Pharmacy,NA,NA,Mo-Su 08:00-23:00,NA,NA
+2084212605,dentist,NA,Government Dentist Department,NA,NA,NA,NA,NA
+2148020987,hospital,hospital,Lapaz Community Hospital,Lapaz Community Hospital,NA,NA,NA,NA
+2148021017,doctors,NA,NA,NA,NA,NA,NA,NA
+2151944590,doctors,NA,Nuffield Clinic Orthopaedic,NA,NA,NA,NA,NA
+2151944602,doctors,NA,NA,NA,NA,NA,NA,NA
+2152138368,doctors,NA,Crystal Eye Clinic,NA,NA,NA,NA,NA
+2152138381,doctors,NA,Peace Clinic,NA,NA,NA,NA,NA
+2154259341,hospital,hospital,Sweden Ghana Medical Centre,NA,NA,NA,NA,NA
+2162648419,hospital,NA,Ho Municipal Hospital,NA,NA,NA,NA,NA
+2189771725,pharmacy,NA,NA,NA,NA,NA,NA,NA
+2278887839,doctors,NA,Garu Health Centre,NA,NA,NA,NA,NA
+2285918231,doctors,NA,NA,NA,NA,NA,NA,NA
+2306715205,pharmacy,pharmacy,Bencyn Pharmacy,NA,NA,Mo-Sa 00:00-23:55,NA,NA
+2319464976,pharmacy,NA,Ryt Pharmacy Ho,NA,NA,NA,NA,NA
+2509276964,pharmacy,NA,Ginaphama Pharmacy,NA,NA,NA,Education rigde road,NA
+2509337553,pharmacy,NA,Rose Aryiretey Licenced Chemical Seller,NA,NA,NA,NA,NA
+2521014504,clinic,NA,Pong-Tamale CHPS Clinic,NA,NA,NA,NA,NA
+2574744949,pharmacy,NA,Unicom Chemist Limited,NA,NA,NA,Dansoman Roundabout,NA
+2644149766,clinic,clinic,Ramona Clinic,NA,NA,NA,NA,NA
+2815197868,pharmacy,pharmacy,New Discovery Pharmacy,NA,NA,NA,NA,NA
+2826655019,doctors,birthing_centre,Airport Womens Hospital,NA,NA,24-Jul,Kofi Atta Annan Street,Accra
+2967647199,pharmacy,NA,NA,NA,NA,NA,NA,NA
+3069906805,doctors,doctor,Regional Medical Office of the Embassy of the Federal Republic of Germany,NA,NA,Mo-Fr 08:00-13:00,Examination Road,"North Ridge, Accra"
+3073535099,pharmacy,NA,NA,NA,NA,NA,NA,NA
+3073611741,pharmacy,NA,Nectar Pharmacy,NA,NA,NA,NA,NA
+3109291372,pharmacy,NA,NA,NA,NA,NA,Kwame Nkrumah Avenue,NA
+3123797169,doctors,NA,Better Hearing Clinic Ltd.,NA,GPS,NA,NA,NA
+3229726703,pharmacy,NA,Medipoint,NA,NA,Mo-Sa 07:00-22:00; Su 12:00-22:00,NA,NA
+3272638988,clinic,clinic,Police Clinic,NA,NA,NA,NA,NA
+3319457082,pharmacy,NA,Elikplim Pharmacy,NA,NA,NA,NA,NA
+3372168837,clinic,NA,UMaT Clinic,NA,NA,Mo-Fr 08:00-17:00,NA,NA
+3496565026,doctors,NA,Osino Health Centre,NA,NA,NA,NA,NA
+3499968761,pharmacy,NA,Brakatu Pharmacy,NA,survey,NA,Bank Road,NA
+3506704799,doctors,doctor,Healthnet Airpoort Mediacl Centre,NA,NA,NA,NA,NA
+3506704821,doctors,doctor,St. Andrews Clinic,NA,NA,NA,NA,NA
+3621666091,pharmacy,NA,Flexta Pharmacy,NA,NA,Mo-Sa 08:00-20:00,NA,NA
+3646705787,pharmacy,NA,Jowis Chemicals,NA,NA,NA,NA,NA
+3655509799,pharmacy,NA,Dzigbordi Chemical Store,NA,survey,NA,NA,NA
+3655509800,pharmacy,NA,Verdi Pharmacy,NA,survey,NA,NA,NA
+3665190017,doctors,doctor,Trust Specialist Hospital,NA,NA,NA,NA,NA
+3706858382,doctors,doctor,St. Lukes Clinic,NA,NA,"Mo-Fr 08:30-20:00; Sa,Su 08:00-14:30; PH off",NA,NA
+3720696845,doctors,doctor,Accra Physiotherapy & Sports Injury Clinic,NA,NA,NA,NA,NA
+3720696848,dentist,dentist,Elite Dental Centre,NA,NA,NA,NA,NA
+3731302543,doctors,doctor,Citadel Clinic,NA,NA,NA,NA,NA
+3745519657,dentist,NA,Platinum Dendist,NA,NA,NA,NA,NA
+3780928018,clinic,NA,NA,NA,NA,NA,NA,NA
+3783842540,clinic,NA,Rabbito Clinic,NA,NA,NA,NA,Takoradi
+3793281505,pharmacy,NA,Owass Pharmacy,NA,NA,NA,NA,NA
+3802489640,pharmacy,pharmacy,Eric's Chemists,NA,NA,NA,NA,NA
+3802490268,clinic,clinic,All Care Medical Center,NA,NA,NA,NA,NA
+3802490258,pharmacy,NA,Eric's Chemists,NA,NA,NA,NA,NA
+3802490987,pharmacy,NA,EPCL,NA,NA,NA,NA,NA
+3802491199,pharmacy,NA,Zizi's Pharmacy,NA,NA,NA,NA,NA
+3807057244,clinic,NA,Topview Diagnostic Center,NA,NA,NA,NA,NA
+3818010148,doctors,NA,Madamfo Specialist Hospital,NA,NA,NA,NA,NA
+3830300488,pharmacy,NA,Treasure Image Pharmacy,NA,NA,NA,NA,NA
+3830300489,doctors,NA,Tuba Community Maternity & Clinic,NA,NA,NA,NA,NA
+3837992782,doctors,NA,FC Clinic,NA,NA,NA,NA,NA
+3837992784,pharmacy,NA,Medicines Plus Pharmacy,NA,NA,NA,NA,NA
+3842054527,clinic,NA,Tebrebe Clinic,NA,NA,NA,NA,NA
+3950017304,doctors,NA,King David Hospital,NA,NA,NA,NA,NA
+3961469680,pharmacy,pharmacy,Ernest Chemists Ltd.,NA,NA,NA,NA,NA
+4021383012,doctors,doctor,Claron Health International,NA,NA,NA,NA,NA
+4028748318,pharmacy,NA,NA,NA,NA,NA,NA,NA
+4099430311,pharmacy,NA,Drug Store,NA,NA,NA,NA,NA
+4157336040,pharmacy,NA,Asylum Down Pharmacy,NA,NA,NA,NA,NA
+4157336043,doctors,NA,M Pact Clinic,NA,NA,NA,NA,NA
+4171178747,pharmacy,NA,Nako,NA,NA,NA,NA,NA
+4185262041,doctors,NA,Acacia Medical Centre,NA,NA,NA,NA,NA
+4217160878,clinic,NA,Health Plus Clinic,NA,NA,NA,NA,NA
+4224179935,clinic,NA,NA,NA,NA,NA,NA,NA
+4239386293,pharmacy,NA,Nyaah Pharmacy,NA,NA,NA,NA,NA
+4269314815,pharmacy,NA,Wilmens Pharmacy,NA,NA,NA,NA,NA
+4269314814,pharmacy,NA,Westlink Chemists Limited,NA,NA,NA,NA,NA
+4270160491,pharmacy,NA,J M Addo and sons ltd.,NA,NA,NA,NA,NA
+4278047642,clinic,NA,Lifebridge Physio Clinic,NA,NA,NA,NA,NA
+4286159096,clinic,NA,New Crystal Hospital,NA,NA,NA,NA,NA
+4286172896,clinic,NA,St Florence Clinic,NA,NA,NA,NA,NA
+4286172893,clinic,clinic,Dar-bem Clinic,NA,NA,NA,NA,NA
+4286173091,clinic,NA,Afenyo Memorial Hospital,NA,NA,NA,NA,NA
+4286173989,clinic,NA,Okanta Clinic,NA,NA,NA,NA,NA
+4305848889,doctors,doctor,Dr. K.K. Duncan,NA,NA,NA,NA,NA
+4313553906,pharmacy,NA,Top Pill Pharmacy,NA,NA,NA,NA,NA
+4316803036,doctors,doctor,Midway Clinic Ltd.,NA,NA,NA,NA,NA
+4333788620,clinic,NA,Ngyiresi CHPS Compound,NA,NA,NA,NA,NA
+4349069300,pharmacy,NA,Equity pharmacy,NA,NA,NA,NA,NA
+4350251990,pharmacy,NA,Ernest Chemist,NA,NA,NA,NA,NA
+4370881507,pharmacy,NA,Ernest Chemist,NA,NA,NA,NA,NA
+4400481802,clinic,NA,Solace Hospital,NA,NA,NA,NA,NA
+4400481906,pharmacy,NA,East Cantoment Pharmacy,NA,NA,NA,NA,NA
+4400503914,pharmacy,NA,Forbiq Pharmacy,NA,NA,NA,NA,NA
+4400503922,doctors,NA,COY Paediatric,NA,NA,NA,NA,NA
+4400503925,doctors,NA,Raphal Medical Center,NA,NA,NA,NA,NA
+4400510392,clinic,NA,Adenta Clinic,NA,NA,NA,NA,NA
+4400510792,clinic,NA,Caiquo Hospital,NA,NA,NA,NA,NA
+4400511089,pharmacy,NA,3rd Gate Pharmacy,NA,NA,NA,NA,NA
+4400511291,pharmacy,NA,Telad Pharmacy,NA,NA,NA,NA,NA
+4429993095,clinic,NA,Medical & Dental Council Ghana,NA,NA,NA,NA,NA
+4430009890,pharmacy,NA,Starwin Products Ltd,NA,NA,NA,NA,NA
+4430018890,pharmacy,NA,Pharmacy Council &National Drug,NA,NA,NA,NA,NA
+4443298689,clinic,NA,Dansoman polyclinic,NA,NA,NA,NA,NA
+4449818564,clinic,NA,CHPS,NA,NA,NA,NA,NA
+4455802855,dentist,NA,Beaver Clinic Ltd.,NA,NA,NA,NA,NA
+4458050662,dentist,NA,Covenant Dental Clinic,NA,NA,NA,NA,NA
+4458050665,doctors,NA,West End Clinic,NA,NA,NA,NA,NA
+4462237991,pharmacy,pharmacy,Relish/Akai,NA,NA,NA,NA,NA
+4479634129,pharmacy,NA,Alaska Pharmacy Ltd,NA,NA,Mo-Fr 09:00-18:00,NA,NA
+388565621,doctors,doctor,Hobats Clinic,NA,NA,NA,NA,NA
+4502539492,clinic,NA,Wassa Akropong Government Hospital,NA,NA,24-Jul,NA,NA
+4516622590,pharmacy,NA,Lesson Pharmacy,Ankama Family,NA,Mo-Fr 07:00-22:00; Sa 08:00-21:00,Al Waleed Bin Talal Highway,NA
+4528254892,clinic,NA,Anloga Avete Clinic,NA,NA,NA,NA,NA
+4534020092,clinic,NA,Nat Herbal Clinic,Tr Dr Sampson Nartey,NA,Mo-Sa 08:30-17:00,Nkwatia- Abetifi,NA
+4542360241,pharmacy,NA,Kekule Pharmacy Limited,NA,NA,NA,NA,NA
+4554919900,pharmacy,NA,Emporium Pharmacy,8am - 9pm,NA,NA,NA,Okponglo
+4557928697,clinic,clinic,Champion Divine,NA,NA,NA,NA,NA
+4557990252,pharmacy,pharmacy,Eribel Pharmacy,NA,NA,NA,NA,NA
+4558008436,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+4585620889,clinic,NA,George & Angelina,NA,NA,NA,NA,NA
+4594011197,pharmacy,NA,Agnes Boateng,NA,NA,NA,NA,NA
+4594133293,pharmacy,NA,Bro.TONNY,NA,NA,NA,NA,NA
+4595157289,pharmacy,NA,St.DOMINIC,NA,NA,NA,NA,NA
+4598936890,pharmacy,NA,Agya OSEI,NA,NA,NA,NA,NA
+4614565789,clinic,NA,GHS,Ghana Health Service,NA,24-Jul,Ajumako-Mabdo,NA
+4614566089,clinic,NA,GHS (Chips Zone),Ghana Health Service,NA,NA,Kyiri-Nkwanta,NA
+4615061889,clinic,NA,Sanford Internal Clinic,NA,NA,NA,NA,NA
+4621957790,hospital,NA,Aburaso Health center,NA,NA,24-Jul,NA,NA
+4648209596,pharmacy,NA,Equa Chemical Shop,NA,NA,NA,NA,NA
+4712847592,clinic,NA,Christleads Medical Center,NA,NA,NA,NA,NA
+4741290374,pharmacy,NA,Gap Pharmacy,NA,NA,NA,NA,NA
+4746491621,clinic,NA,G.P.H.A Clinic Tema,NA,NA,NA,NA,NA
+4771159343,pharmacy,NA,NA,NA,NA,NA,NA,NA
+4775971607,pharmacy,NA,Adom Chemical Shop,NA,NA,NA,NA,NA
+4780055840,clinic,NA,Emmanuel Eye Clinic,NA,NA,NA,Maseru Avenue,Accra
+4789654972,clinic,NA,Diagnostic Centre,NA,NA,NA,Maseru Avenue,Accra
+4801479847,clinic,NA,Adawukwao CHIPS Compound,Government,NA,24-Jul,NA,NA
+4803881309,clinic,NA,Aboso Clinic,NA,NA,NA,NA,NA
+4830568666,doctors,NA,Christian Medical Centre & Laboratory,NA,NA,NA,NA,NA
+4851957897,clinic,NA,Bogoso Clinic,NA,NA,NA,NA,NA
+4881656377,pharmacy,NA,Dadmum Pharmacy,NA,NA,Mo-Sa 08:00-21:00; Su 13:00-21:00,NA,NA
+4891945821,doctors,NA,Annat Medical Diagnostics Centre,NA,NA,Mo-Sa 08:00-17:00,NA,NA
+4925292335,clinic,NA,Cocoa Clinic,NA,NA,24-Jul,Osei Tutu I Avenue,NA
+4927406375,pharmacy,NA,Ebenezer pharmacy,NA,NA,NA,NA,NA
+4938323585,pharmacy,NA,NA,NA,NA,NA,NA,NA
+4943837822,pharmacy,pharmacy,Ernest Chemist,NA,NA,NA,NA,NA
+4951010023,pharmacy,NA,Ernest Chemists Ltd.,NA,NA,NA,NA,NA
+4955246621,pharmacy,NA,DE-MAKS Pharmacy,NA,NA,NA,Nsenie Main Street,NA
+4971251581,pharmacy,NA,Maxkins Pharmacy,NA,NA,NA,NA,NA
+4972577043,pharmacy,NA,Benalice,NA,NA,NA,NA,NA
+4990644968,pharmacy,NA,Brobson,NA,NA,NA,NA,NA
+5005175758,pharmacy,NA,Tobinco Pharmaceuticals Limited,NA,NA,NA,NA,NA
+5017201476,pharmacy,NA,NA,NA,NA,NA,Ndabaningi Sithole,NA
+5029455806,pharmacy,NA,Telad Pharmay,NA,NA,NA,NA,NA
+5046972667,pharmacy,NA,Tobinco,NA,NA,NA,NA,NA
+5046972668,pharmacy,NA,Cramer Chemist,NA,NA,NA,NA,NA
+5051344421,pharmacy,NA,Duet Pharmacy,NA,NA,NA,NA,NA
+5077394121,clinic,NA,St. Joseph's Hospital,NA,NA,NA,NA,NA
+5083433636,pharmacy,NA,The Medipoint,NA,NA,NA,Spintex Road,NA
+5087710549,pharmacy,NA,Jeb Pharmacy,NA,NA,NA,NA,NA
+5087711022,pharmacy,NA,NA,NA,NA,NA,NA,NA
+5109825922,pharmacy,NA,Geomat Pharmacy Limited,NA,NA,NA,Dr. Obour Boffah Link,NA
+5115858546,pharmacy,NA,Drug Store,NA,NA,NA,NA,Agona Swedru
+5126056121,clinic,NA,Chirano health center,NA,NA,NA,NA,NA
+5126073022,pharmacy,NA,Benedicta Twumwaa licensed shop,NA,NA,NA,NA,NA
+5128389744,pharmacy,pharmacy,Grammar Chemist,NA,NA,NA,NA,NA
+5128390091,pharmacy,pharmacy,Anasapharma Limited,NA,NA,NA,NA,NA
+5128388438,pharmacy,NA,Angola Road Chemists Limited,NA,NA,NA,NA,NA
+5128388439,pharmacy,pharmacy,Top-Up Pharmacy,NA,NA,NA,NA,NA
+5150562247,pharmacy,NA,Frontline Pharmacy,NA,NA,NA,NA,NA
+5150562249,pharmacy,NA,Tudu Pharmacy,NA,NA,NA,NA,NA
+5150562248,clinic,NA,SIC Bob Freeman Clinic,NA,NA,NA,NA,NA
+5188828824,pharmacy,NA,Ashaiman Pharmacy,NA,NA,NA,Atankpa Tettey Street,NA
+5193525333,dentist,NA,Market Circle Dental Clinic,NA,NA,NA,NA,NA
+5199760922,pharmacy,pharmacy,Tedolex Pharmacy,NA,NA,NA,NA,NA
+5199759903,clinic,clinic,Opmann Clinic,NA,NA,NA,NA,NA
+5209798110,pharmacy,NA,Nascata Pharmacy Limited,NA,NA,NA,NA,NA
+5209798229,pharmacy,NA,ECP Pharmacy Wholesale,NA,NA,NA,NA,NA
+5210012726,pharmacy,NA,NA,NA,NA,NA,NA,NA
+5210311621,clinic,clinic,Rinat Clinic,NA,NA,NA,NA,NA
+5210337471,clinic,alternative,Prolife Chinese Acupuncture Clinic,NA,NA,NA,NA,NA
+5210898985,pharmacy,NA,Maidaal Pharmacy,NA,NA,NA,NA,NA
+5210899221,pharmacy,NA,Radiance Pharmacy,NA,NA,NA,NA,NA
+5235963521,pharmacy,NA,Rhamshiv Pharmacy,NA,NA,Mo-Sa 07:00-22:00; Su 15:00-22:00,NA,NA
+5236480338,pharmacy,pharmacy,Richben Pharmacy Limited,NA,NA,NA,NA,NA
+5239750195,clinic,NA,Essiama Community Health Centre,NA,NA,NA,NA,NA
+5287626001,pharmacy,NA,Kaizen Pharma Limited,NA,NA,NA,NA,NA
+5287626004,pharmacy,NA,Fidelity Pharmacy,NA,NA,NA,NA,NA
+5300409376,pharmacy,NA,Pillpoint Pharmacy (Retail),NA,NA,NA,NA,NA
+5300408284,pharmacy,NA,Solutions Pharmaceuticals Limited,NA,NA,"Mo-Sa 08:00-21:00, 09:00-18:00; Su 15:00-21:00",NA,NA
+5301563288,pharmacy,NA,Pebs Pharmacy Limited,NA,NA,NA,NA,NA
+5301563451,pharmacy,NA,NA,NA,NA,NA,NA,NA
+5302018799,pharmacy,pharmacy,Ernest Chemist,NA,NA,NA,NA,NA
+5302018800,pharmacy,NA,"East Cantonments Pharmacy Limited, Wholesale",NA,NA,NA,NA,NA
+5308353646,pharmacy,pharmacy,Green Light Pharmacy,private,NA,NA,mugumu,mara
+5308402797,clinic,clinic,Healthlane Clinic,Doctor Asare,NA,NA,NA,NA
+5308402796,clinic,clinic,Opoku Clinic,NA,NA,NA,NA,NA
+5321471509,clinic,clinic,Healthnet Clinic,NA,NA,NA,NA,NA
+5321471739,pharmacy,NA,Amnex,NA,NA,Mo-Su 07:00-00:00,NA,NA
+5322314854,pharmacy,NA,Speed Pharmacy,NA,NA,NA,NA,NA
+5331310697,pharmacy,NA,NA,NA,NA,NA,NA,NA
+5331770567,pharmacy,NA,NA,NA,NA,NA,NA,NA
+5332182221,pharmacy,NA,Ghanima Pharmacy Limited,NA,NA,NA,Dr Addo Kuffour Avenue,NA
+5347282825,pharmacy,NA,Elite Pharmacy ltd,NA,NA,NA,NA,NA
+5349015829,clinic,NA,Duusi CHPS Compound,Ghana Health Service,NA,NA,NA,NA
+5355072423,pharmacy,NA,Alpha Duo Pharma Ltd,NA,NA,NA,NA,NA
+5358519884,clinic,NA,Kamgbunli Clinic,NA,NA,NA,NA,NA
+5359291446,pharmacy,NA,NA,NA,NA,NA,NA,NA
+5359420378,clinic,NA,Brahabebome Clinic,NA,NA,NA,NA,NA
+5364799592,clinic,clinic,NA,NA,NA,NA,NA,NA
+5396300917,pharmacy,NA,NA,NA,NA,NA,NA,NA
+5404139622,pharmacy,NA,O. K Pharmacy,NA,NA,Mo-Sa 00:00-24:00; Su 00:00-22:00,SNNIT-Fiapre Road,NA
+5423086824,pharmacy,NA,Eno Serwaah pharmacy,Moses Amoateng Peasah,NA,24-Jul,Datano High-Street,NA
+5435600812,pharmacy,NA,Tonya Pharmacy,NA,NA,"Mo-Sa 07:00-21:00, 09:00-18:00; Su 12:00-21:00",NA,NA
+5486353373,pharmacy,pharmacy,Ebenezer Chemist Limited,NA,NA,NA,NA,NA
+5501856321,clinic,NA,Nature Health Care Center,NA,NA,NA,NA,NA
+5515602856,pharmacy,NA,Health Spring Pharmacy,NA,NA,NA,NA,NA
+5535380932,pharmacy,NA,NA,NA,NA,NA,NA,NA
+5535787467,pharmacy,NA,CP,NA,NA,NA,NA,NA
+5548620423,pharmacy,NA,NA,NA,NA,NA,NA,NA
+5551059075,clinic,NA,Nurse's quarters,NA,NA,NA,NA,NA
+5588701518,clinic,NA,Oak Tree Medical Services,NA,NA,NA,NA,NA
+5591386722,clinic,NA,Hoggar Clinic Limited,NA,NA,24-Jul,Dogbatse Avenue,NA
+5627808037,pharmacy,pharmacy,Aython Drugs,NA,NA,NA,NA,NA
+5643500622,clinic,NA,Dr. Mensah,Dr. Mensah,NA,NA,Ashanti New Town Road,NA
+5649508154,clinic,NA,Gemar Hospital,NA,NA,NA,NA,NA
+5656310164,clinic,NA,Peposo CHPS,NA,NA,NA,NA,NA
+5656359424,clinic,NA,Prestea CHPS,NA,NA,NA,NA,NA
+5676598273,pharmacy,NA,Kendicks Pharmacy Limited,NA,NA,NA,NA,NA
+5702634402,pharmacy,NA,NA,NA,NA,NA,NA,NA
+5705985321,clinic,NA,Polyclinic,NA,NA,NA,NA,NA
+5708784721,pharmacy,NA,Sing Praises,NA,NA,NA,NA,NA
+5714066427,pharmacy,NA,Etornam Herbal Center,NA,NA,NA,NA,NA
+5714073662,pharmacy,NA,Pill Point,NA,NA,"Mo-Su 07:30-14:00, 21:00-21:00",Accra-Ashaiman Road,NA
+5714073663,pharmacy,NA,B.B.S Pharmacy Limited,NA,NA,NA,NA,NA
+5714094831,pharmacy,NA,Sebatos,NA,NA,"Mo-Su 07:00-14:00, 22:00-22:00",NA,NA
+5715210441,pharmacy,NA,Oheneba Pharmacy,NA,NA,NA,NA,NA
+5717927636,pharmacy,pharmacy,Lloyd's Pharmacy,NA,NA,NA,NA,NA
+5718409412,pharmacy,NA,NA,NA,NA,NA,NA,NA
+5725952521,pharmacy,NA,Nola,NA,NA,NA,NA,NA
+5726303123,clinic,NA,Quality Care,NA,NA,NA,NA,NA
+5727975621,pharmacy,pharmacy,Op Pharmacy,NA,NA,NA,NA,NA
+5727975623,pharmacy,NA,NA,NA,NA,NA,NA,NA
+5728895262,clinic,NA,Urban Medical Research Center,NA,NA,NA,NA,NA
+5730097211,pharmacy,NA,Aide Chemists,NA,NA,NA,NA,NA
+5731354877,pharmacy,pharmacy,Lifeline Chemist,NA,NA,Mo-Sa 09:00-22:00; Su 14:00-21:30,Nii Amasa street,NA
+5731354878,pharmacy,NA,Mary de Rose Pharmacy,NA,NA,NA,Nii Amasa street,NA
+5732276423,clinic,NA,St. Mary’s Eye Clinic,St. Mary’s Hospital,NA,Mo-Fr 09:00-17:00,Sampa - Berekum(Benneh Road),NA
+5732666951,pharmacy,NA,Linivien Pharmacy,NA,NA,NA,NA,NA
+5732865813,pharmacy,pharmacy,Reanie Chemist Limited,NA,NA,NA,NA,NA
+5732865693,clinic,NA,Care Medical and Martenity,NA,NA,NA,NA,NA
+5739266521,pharmacy,NA,Gabriel k Adom,NA,NA,NA,Togbe Tawiah,NA
+5741247520,pharmacy,pharmacy,CureAid,NA,NA,NA,Adena La Nkwantanang Boundary RD.,Adanta Accra
+5746072945,pharmacy,NA,Ernest,NA,NA,NA,NA,NA
+5746742547,pharmacy,NA,Dipsy Pharmacy,NA,NA,Mo-Fr 07:00-19:30; Sa 06:45-17:00; closed,NA,NA
+5746781474,clinic,clinic,St. Edward's Clinic,NA,NA,Mo-Fr 08:00-20:00; Sa 08:00-13:00,NA,NA
+5748042149,pharmacy,NA,Late Night Pharmacy,NA,NA,NA,NA,NA
+5749720245,pharmacy,pharmacy,Pill Point,NA,NA,NA,NA,NA
+5751454691,pharmacy,NA,Regent Pharmacy,NA,NA,NA,NA,NA
+5752141742,pharmacy,NA,Ernest Chemist,NA,NA,NA,NA,NA
+5752197975,pharmacy,NA,Dans Chemist,NA,NA,NA,NA,NA
+5752205059,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+5755779938,hospital,hospital,Nyaho Medical Centre,NA,NA,NA,NA,NA
+5756412277,NA,laboratory,Ultra Lab Diagnostic Center,NA,NA,NA,NA,NA
+5759224255,pharmacy,NA,NA,NA,NA,NA,NA,NA
+5759607065,pharmacy,NA,Farmacia,NA,NA,NA,NA,NA
+5761487654,pharmacy,NA,NA,NA,NA,NA,Winneba Road,NA
+5766799969,pharmacy,pharmacy,Health Concept,NA,NA,NA,NA,NA
+5770056540,pharmacy,NA,EVP Pharmacy,NA,NA,NA,NA,NA
+5775921566,pharmacy,NA,NA,NA,NA,NA,NA,NA
+5775921569,pharmacy,pharmacy,Palace Pharmaceuticals,NA,NA,NA,NA,NA
+5776863853,clinic,NA,Newlands Medical Centre,NA,NA,NA,Densuano Street,NA
+5776863753,clinic,NA,Providence Medical Centre,NA,NA,NA,NA,NA
+5777113610,pharmacy,pharmacy,Hebrews Pharmacy Limited,NA,Open Cities Accra - Field Survey,"Mo-Fr 07:30-22:00; Sa, Su 13:00-21:00",NA,Accra
+5781362108,pharmacy,NA,Aseda Pharmaceuticals ltd,NA,NA,NA,NA,NA
+5781989254,pharmacy,NA,Pharma Solutions,NA,NA,NA,Winneba Road,NA
+5790774953,pharmacy,NA,Fabby Pharmacy,NA,NA,NA,NA,NA
+5794952811,pharmacy,NA,NA,NA,NA,NA,NA,NA
+5799350934,pharmacy,NA,NA,NA,NA,NA,NA,NA
+5809255656,pharmacy,NA,Liniven Pharmacy,NA,NA,NA,NA,NA
+5819906953,pharmacy,NA,Biotic Pharmacy,NA,NA,24-Jul,Spintex Road,Spintex Accra
+5824861049,pharmacy,NA,NA,NA,NA,NA,NA,NA
+5825259462,pharmacy,NA,NA,NA,NA,NA,NA,NA
+5831982644,pharmacy,pharmacy,Mohammad Pharmacy,NA,NA,NA,NA,NA
+5832300522,pharmacy,pharmacy,Mutaru Chemist,NA,NA,NA,NA,NA
+5832704543,pharmacy,pharmacy,Alhaji Chemist,NA,NA,NA,NA,NA
+5846864746,clinic,NA,Abura Clinic,NA,NA,NA,NA,NA
+5859872286,pharmacy,NA,Nock Chemists Limited,Nuako Family,NA,Mo-Sa 07:00-21:00,Carsely Hayford Avenue,NA
+5868518756,clinic,clinic,Port Medical Centre,NA,NA,NA,NA,NA
+5876940066,pharmacy,NA,G- EME Pharmacy and Diagnostic Centre,NA,NA,NA,NA,NA
+5881543451,pharmacy,NA,Hobet Pharmacy,NA,NA,Mo-Sa 07:00-21:30; Su 13:00-21:00,NA,NA
+5892839589,doctors,doctor,G2 Medical Laboratory Services,NA,NA,Mo-Su 06:00-00:00,NA,NA
+5893538876,pharmacy,pharmacy,24hrs Pharmacy,NA,NA,NA,NA,NA
+5912226025,doctors,optometrist,Mk Eye Center,private_profit,Open Cities Accra - Field Survey,Mo-Su 09:00-21:00,Toshway Hotel Street,Accra
+5920361460,doctors,NA,NA,NA,NA,NA,NA,NA
+5923783047,pharmacy,pharmacy,Healthmark Pharmacy,NA,NA,NA,NA,NA
+5938286600,pharmacy,NA,T T medicine shop,NA,NA,NA,NA,NA
+5952622192,NA,optometrist,Van-J Eye Care,NA,NA,NA,NA,NA
+5955240783,pharmacy,NA,NA,NA,NA,NA,NA,NA
+5955274013,pharmacy,NA,Kin-Ada,NA,NA,NA,NA,NA
+5956685479,pharmacy,pharmacy,Septal,NA,NA,NA,NA,NA
+5956713515,pharmacy,NA,Ballis Pharmacy,NA,NA,NA,NA,NA
+5959485082,pharmacy,pharmacy,Pharma Solutions,NA,NA,NA,NA,NA
+5959485125,pharmacy,NA,Free Mart Pharmacy,NA,NA,NA,NA,NA
+5959485126,pharmacy,pharmacy,PNT Pharmacy,NA,NA,NA,NA,NA
+5963528280,pharmacy,pharmacy,Nesta,NA,NA,Mo-Sa 09:00-21:00,NA,NA
+5965868710,pharmacy,pharmacy,Revman Pharmacy,NA,Open Cities Accra - Field Survey,NA,Teiku Baah Street,Accra
+5966273994,pharmacy,pharmacy,3A Pharmacy,NA,NA,NA,NA,NA
+5969633908,pharmacy,pharmacy,Phersons Pharmacy,NA,Open Cities Accra - Field Survey,NA,NA,Accra
+5984134810,clinic,NA,Addis Medical Laboratory,NA,NA,NA,NA,NA
+5987250116,pharmacy,pharmacy,Rock Chemist,NA,Open Cities Accra - Field Survey,NA,NA,Accra
+5991635395,pharmacy,NA,Adepa Pharmacy,NA,NA,NA,NA,NA
+5995822045,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6016629534,pharmacy,NA,Biolink Pharmacy,NA,NA,NA,NA,NA
+6016629538,pharmacy,NA,Vir-Tee Pharmacy,NA,NA,NA,NA,NA
+6016629738,pharmacy,NA,Yomefa Pharmacy,NA,NA,NA,NA,NA
+6019652556,pharmacy,NA,OBM Pharmacy,NA,NA,NA,NA,NA
+6019717328,clinic,NA,Eastwing Clinic,NA,NA,NA,NA,NA
+6019717391,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6019717336,pharmacy,NA,La Famille Chemist,NA,NA,NA,NA,NA
+6031380950,pharmacy,NA,Rockwell,NA,NA,NA,NA,NA
+6032340907,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6033584886,pharmacy,NA,Laud K Pharmacy,NA,NA,NA,NA,NA
+6036650216,pharmacy,NA,MAG Pharmacy,NA,NA,NA,NA,NA
+6036653467,pharmacy,NA,Ernest Chemist,NA,NA,NA,NA,NA
+6037962270,pharmacy,NA,Sarps Pharmacy,NA,NA,NA,NA,NA
+6037962463,pharmacy,NA,Adepharma Limited - Wholesale Only,NA,NA,NA,NA,NA
+6050981938,pharmacy,NA,Ernest Chemist Limited,NA,NA,NA,NA,NA
+6058330729,doctors,hospital,NA,NA,NA,NA,NA,NA
+6072524768,pharmacy,pharmacy,MayDay Pharmacy,NA,NA,NA,NA,NA
+6088776924,pharmacy,NA,Casablanca Pharmacy,NA,NA,NA,NA,NA
+6091142233,pharmacy,NA,Albar Pharmacy,NA,NA,NA,NA,NA
+6091146473,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6091146476,pharmacy,NA,Western Pharmacy,NA,NA,NA,NA,NA
+6091147323,pharmacy,NA,Vero Chemists Limited,NA,NA,NA,NA,NA
+6091147586,pharmacy,NA,Ernest Chemist,NA,NA,NA,NA,NA
+6095105352,pharmacy,pharmacy,Supreme Total Care,NA,NA,Mo-Su 09:00-21:00,NA,Tema
+6095208031,clinic,yes,Omari Medical Centre,NA,NA,24-Jul,NA,"Mataheko,Tema"
+6095220985,pharmacy,pharmacy,Senes Pharmacy,NA,NA,Mo-Su 09:00-21:00,NA,Tema
+6095245468,pharmacy,pharmacy,P.A. Mamattah Chemical Licensed Chemical Seller,NA,NA,Mo-Su 09:00-21:00,NA,Tema
+6100969250,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6109998117,pharmacy,pharmacy,Magpat Pharmacy,NA,mapillary,NA,NA,NA
+6110516415,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6115657385,pharmacy,pharmacy,1st Champions Pharmacy,NA,NA,NA,NA,NA
+6132175109,pharmacy,pharmacy,Josly Pharmacy Limited,NA,NA,NA,NA,NA
+6135529577,dentist,dentist,Jacob Nelson,NA,NA,NA,NA,NA
+6160907673,pharmacy,pharmacy,Ke-nash Pharmacy,NA,NA,NA,NA,NA
+6166883975,pharmacy,NA,Trekanet Pharmacy,NA,NA,Mo-Sa 08:00-21:30; Su 12:00-21:30,NA,NA
+6173271978,clinic,NA,Codia Clinic,NA,NA,NA,NA,NA
+6189309689,pharmacy,NA,Alpat Pharmacy Limited,NA,NA,NA,NA,NA
+6195403488,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6198608186,pharmacy,NA,Emmasel Pharmacy,NA,NA,NA,NA,NA
+6198695885,pharmacy,NA,Chara Pharmacy,NA,NA,NA,NA,NA
+6213041912,clinic,NA,Club Road Clinic,NA,NA,NA,NA,NA
+6215799885,pharmacy,NA,Hills Pharmacy,NA,NA,NA,NA,NA
+6217956936,pharmacy,NA,East Cantoments Pharmacy Retail,NA,NA,NA,Kwame Nkrumah Avenue,NA
+6218840085,pharmacy,NA,Syrene Health Services,NA,NA,NA,NA,NA
+6226204623,pharmacy,NA,EFS-ESS Pharmacy,NA,NA,NA,NA,NA
+6233786941,pharmacy,NA,Health Lover,NA,NA,NA,NA,NA
+6234120412,pharmacy,NA,Eri Pharma Ltd,NA,NA,NA,NA,NA
+6234158807,pharmacy,NA,Aide Pharmacy,NA,NA,NA,NA,NA
+6235565286,clinic,NA,Kpeve New Town Health Center,NA,NA,NA,NA,NA
+6247611198,pharmacy,NA,Nakopat Pharmacy,NA,NA,NA,NA,NA
+6253492898,pharmacy,NA,Aviation Road Pharmacy,NA,NA,NA,NA,NA
+6253504385,pharmacy,NA,Nissi Pharmacy,NA,NA,NA,NA,NA
+6253505995,pharmacy,NA,Medmina Pharmacy,NA,NA,NA,NA,NA
+6256037003,pharmacy,NA,Daniel A. Tetteh ( Awokye Drug Store),NA,NA,NA,NA,NA
+6256498497,pharmacy,NA,Aboabo Drug Store,NA,NA,NA,NA,NA
+6256580101,pharmacy,NA,Pharmacy Relics,NA,NA,NA,NA,NA
+6256615236,pharmacy,NA,TC Pharmacy,NA,NA,NA,NA,NA
+6257562446,clinic,NA,Oman Clinic,NA,NA,NA,NA,NA
+6261963936,pharmacy,NA,Alive Pharmaceuticals (Gh) Ltd Wholesale,NA,NA,NA,Dansoman Road,NA
+6261963935,clinic,clinic,Quantum Medical Centre and Eye Clinic,NA,NA,NA,Dansoman Curve Road,NA
+6266640142,clinic,NA,Kotoku Clinic,NA,NA,NA,NA,NA
+6274427264,clinic,NA,Cosmas- Damien Clinic,NA,NA,NA,NA,NA
+6278004864,pharmacy,NA,Seyama Pharmaceuticals,NA,NA,NA,NA,NA
+6279110346,clinic,clinic,Edward Attah Asare,private_profit,Open Cities Accra / GARID- Field Survey,NA,Dzagble Avenue,Accra
+6279110349,pharmacy,pharmacy,Adonai Grace Pharmacy,private_profit,Open Cities Accra / GARID- Field Survey,Mo-Sa 07:00-22:00; Su 14:00-22:00,Tienyo Street,Accra
+6279110347,pharmacy,pharmacy,Excel Pharmacy and Cosmetics,private_profit,Open Cities Accra - Field Survey,Mo-Sa 08:00-18:00,Ruby's Street,Accra
+6281690204,pharmacy,NA,Roman Pharmacy Limited,NA,NA,NA,NA,NA
+6283465059,pharmacy,pharmacy,Luckies Pharmacy,private_profit,Open Cities Accra - Field Survey,Mo-Sa 08:00-18:00,Obomou Street,Accra
+6283465058,pharmacy,pharmacy,Esther's Pharmacy Shop,private_profit,Open Cities Accra - Field Survey,Mo-Sa 08:00-18:00,Tshuapa Street,Accra
+6285113296,doctors,doctor,Lifeview Medical Laboratory,NA,Open Cities Accra - Field Survey,NA,Ayee Ayee Fee Avenue,Accra
+6288620693,clinic,NA,Koforidua Clinic,NA,NA,NA,NA,NA
+6290813212,pharmacy,pharmacy,Nikos Pharmacy,private_profit,Open Cities Accra - Field Survey,Mo-Su 09:00-21:00,Abetei Street,Accra
+6290813210,pharmacy,pharmacy,Rich Pharmacy,private_profit,Open Cities Accra - Field Survey,Mo-Su 09:00-21:00,Ofori Tibo Avenue,Accra
+6290813211,pharmacy,pharmacy,Francisca Mensah,private_profit,Open Cities Accra - Field Survey,NA,NA,Accra
+6290813562,pharmacy,pharmacy,Auguelix Herbal Shop,NA,Open Cities Accra / GARID- Field Survey,NA,Kwashie Bezrot Street,Accra
+6292744802,clinic,NA,TMA Maternity and Children's Clinic,NA,NA,24-Jul,NA,NA
+6293319260,pharmacy,NA,Adenta Pharmacy,NA,NA,NA,NA,NA
+6299186460,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6304073822,pharmacy,NA,Gabson Pharmacy,NA,NA,NA,NA,NA
+6305321317,pharmacy,NA,Osons Chemist,NA,NA,NA,NA,NA
+6305336215,clinic,NA,Edith's Maternity Home,NA,NA,NA,NA,NA
+6310119701,pharmacy,NA,Amicus Pharmacy,NA,NA,NA,NA,NA
+6312196221,clinic,NA,Dr Asomani Clinic,NA,NA,NA,NA,NA
+6312202203,clinic,NA,Atekyem Medical Center,NA,NA,NA,NA,NA
+6312866084,clinic,clinic,All Faith Clinic,NA,NA,NA,NA,NA
+6313240309,pharmacy,NA,Joe-Chris Pharmacy,NA,NA,NA,Kofi Solo Avenue,NA
+6314191642,pharmacy,NA,Willidark Chemical,NA,NA,NA,Goaso High Street,NA
+6314371221,pharmacy,NA,Big Maron Pharmacy,NA,NA,NA,NA,NA
+6319174597,clinic,NA,Bonna O- A Memorial Clinic,NA,NA,NA,NA,NA
+6319495675,clinic,clinic,Our Lady of Faith Clinic,NA,NA,NA,NA,NA
+6324846586,pharmacy,NA,G & E Health Services,NA,NA,NA,NA,NA
+6325471516,clinic,NA,Samsam Community Clinic,NA,NA,NA,NA,NA
+6349309485,pharmacy,NA,Med Aid Pharmacy,NA,NA,NA,La Bawaleshi Road,NA
+6349309785,clinic,NA,Inter-Star Eye Clinic,NA,NA,NA,La Bawaleshi Road,NA
+6350580474,pharmacy,pharmacy,Grit Pharmacy,NA,NA,NA,NA,NA
+6352298093,pharmacy,pharmacy,Robbie's Chemist,NA,NA,NA,NA,NA
+6352738040,clinic,NA,St Moses Clinic,NA,NA,NA,NA,NA
+6355598417,pharmacy,pharmacy,NA,GhanaHealth Service,NA,NA,NA,NA
+6356087258,clinic,clinic,Acheampong Specialist Clinic,NA,NA,NA,NA,NA
+6356540173,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6356778208,pharmacy,NA,Jak Pharmacy,NA,NA,NA,NA,NA
+6360017285,clinic,NA,Emergency Unit,NA,NA,NA,NA,NA
+6362090188,pharmacy,NA,Eastern Chemists,NA,NA,NA,NA,NA
+6369964730,pharmacy,pharmacy,A. O. Pharmacy,NA,NA,NA,NA,NA
+6371762886,pharmacy,NA,Verdi Pharmacy,NA,NA,NA,NA,NA
+6372816494,pharmacy,NA,Skycare Pharmacy,NA,NA,NA,NA,NA
+6373951542,pharmacy,NA,Mabel Akyaa Waye,NA,NA,NA,Kofi Solo Avenue,NA
+6376476022,pharmacy,pharmacy,Add Pharmacy,NA,NA,NA,NA,NA
+6380664285,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6386095104,pharmacy,NA,Day By Day,NA,NA,NA,NA,NA
+6387877453,pharmacy,pharmacy,East Cantoments Pharmacy Retail,NA,NA,NA,NA,NA
+6387882586,pharmacy,NA,Sadas Chemists,NA,NA,Mo-Fr 07:30-22:00; Sa 09:00-22:00,NA,NA
+6387882669,pharmacy,NA,Pharmacy Royale,NA,NA,Mo-Sa 08:00-22:00; Su 09:00-21:00,W E B Du-Bois Street,NA
+6388042409,pharmacy,NA,B4 Pharmacy,NA,NA,NA,NA,NA
+6388042484,clinic,NA,Patbrenda Clinic & Laboratory,NA,NA,NA,NA,NA
+6388787464,pharmacy,NA,Winefred Adjei,NA,NA,NA,Mim-Kukuom Road,NA
+6394489647,pharmacy,NA,Wesley Pharmacy,NA,NA,NA,NA,NA
+6395651958,pharmacy,NA,Amicus Pharmacy,NA,NA,NA,NA,NA
+6419800386,pharmacy,NA,Danpong Pharmacy,NA,NA,NA,NA,NA
+6419800389,pharmacy,NA,Marisa & May Pharmacy,NA,NA,NA,Baatsonaa Road,NA
+6420471671,pharmacy,NA,Kafny Pharmacy,NA,NA,NA,NA,NA
+6428842015,clinic,NA,Safeline Medical Laboratory,NA,NA,NA,NA,NA
+6431425985,pharmacy,NA,Davjoel Pharmacy,NA,NA,NA,NA,NA
+6431460586,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6431468287,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6431496185,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6432200682,pharmacy,NA,Joy NK,NA,NA,NA,NA,NA
+6433598787,pharmacy,NA,Edd Eddy,NA,NA,NA,Bank Road,NA
+6435744903,pharmacy,NA,Gabson Pharmacy,NA,NA,NA,NA,NA
+6435759256,pharmacy,NA,Inter-Pharma Limited,NA,NA,NA,NA,NA
+6435778898,pharmacy,NA,Kama Pharmacy,NA,NA,NA,NA,NA
+6437976663,pharmacy,pharmacy,Ernbrid Pharmacy,NA,NA,NA,NA,NA
+6446698786,pharmacy,NA,Prime,NA,NA,NA,NA,NA
+6446698787,pharmacy,NA,Medimart,NA,NA,NA,NA,NA
+6448342769,dentist,dentist,New Vision Dental,NA,NA,NA,NA,NA
+6448601889,pharmacy,NA,Ernest Chemist,NA,NA,NA,NA,NA
+6451360488,pharmacy,pharmacy,Medimart,NA,NA,NA,NA,NA
+6453274999,pharmacy,NA,Almas Pharmacy,NA,NA,NA,NA,NA
+6453275522,pharmacy,NA,Top Pill,NA,NA,NA,NA,NA
+6457590491,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6462221587,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6464523586,pharmacy,NA,Success Pharmacy,Paul Antwi,NA,Mo-Su 07:00-10:00,Teiman-Abokobi Road,Accra
+6465302585,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6465598585,pharmacy,NA,Pepmay,NA,NA,NA,NA,NA
+6466793970,pharmacy,NA,Brobbson Pharmacy,NA,NA,NA,NA,NA
+6470857985,clinic,NA,NA,NA,NA,NA,NA,NA
+6470868773,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6470868779,pharmacy,pharmacy,CrossRoad,NA,NA,NA,NA,NA
+6475165522,clinic,NA,BJ Medical Centre,NA,NA,NA,NA,NA
+6476504089,pharmacy,NA,Maxwell Akoto-Mireku,NA,NA,NA,NA,NA
+6476594839,pharmacy,NA,Hayat Pharmacy,NA,NA,Mo-Sa 07:00-22:00,Second Ring Road,NA
+6478425887,pharmacy,NA,S.K Agyapong Over the Canter,NA,NA,NA,NA,NA
+6478645121,pharmacy,pharmacy,Ernest Chemist,NA,NA,NA,NA,NA
+6481544425,clinic,NA,Bezzaleel Diagnostic Clinic,NA,NA,NA,NA,NA
+6481547066,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6481547290,NA,laboratory,NA,NA,NA,NA,NA,NA
+6489258742,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6490356674,pharmacy,pharmacy,NEA Pharmacy,NA,NA,NA,NA,NA
+6492032679,pharmacy,NA,Herbal Pharmacy,NA,NA,NA,NA,NA
+6492135186,pharmacy,NA,Christian Pharmacy,NA,NA,NA,NA,NA
+6492135185,pharmacy,NA,Beach Road Pharmacy,NA,NA,NA,Teshie Road,NA
+6493148330,pharmacy,pharmacy,Mobimed Pharmacy,NA,NA,NA,NA,NA
+6495045149,pharmacy,NA,Ernest Chemists Ltd,NA,NA,NA,NA,NA
+6497613227,pharmacy,NA,D. B. Twumasi Chemicals OTC Medicine,NA,NA,NA,NA,NA
+6502579538,pharmacy,NA,Retina Pharmacy,NA,NA,NA,NA,NA
+6503866985,pharmacy,NA,Mossay Pharmacy,NA,NA,NA,NA,NA
+6503866987,pharmacy,NA,Joe Benneth Pharmacy,NA,NA,NA,NA,NA
+6503866994,pharmacy,NA,Shekiel Pharmacy,NA,NA,NA,NA,NA
+6504090026,pharmacy,NA,Six Stars Pharmacy,NA,NA,NA,NA,NA
+6508003152,clinic,NA,DIS Clinic,NA,NA,Mo-Sa 08:00-22:00,NA,NA
+6508243726,pharmacy,NA,Nat & Sons Pharmacy,NA,NA,Mo-Sa 08:00-22:00,NA,NA
+6510966540,pharmacy,NA,Biomed Pharmacia,NA,NA,NA,NA,NA
+6511801866,clinic,NA,Salgyin Medical Center,NA,NA,NA,NA,NA
+6511815840,pharmacy,NA,Blue Cross Pharmacy,NA,NA,NA,NA,NA
+6512781822,pharmacy,NA,Ave Maria Pharmacy,NA,NA,NA,NA,NA
+6521200239,pharmacy,NA,Safe life Pharmacy,NA,NA,NA,NA,NA
+6522171385,clinic,NA,Greenfield,NA,NA,NA,NA,NA
+6528533857,pharmacy,NA,Human Pharmacy,NA,NA,NA,NA,NA
+6532523822,pharmacy,NA,Panacea Pharmacy,NA,NA,NA,NA,NA
+6532565401,pharmacy,NA,Bucee Phamarcy,NA,NA,NA,NA,NA
+6532574094,pharmacy,NA,Cape Coast Pharmacy,NA,NA,NA,NA,NA
+6532592716,pharmacy,NA,Sancotex Pharmacy,NA,NA,NA,NA,NA
+6532592715,pharmacy,NA,Boakye Ansah Pharmacy,NA,NA,NA,NA,NA
+6532592717,pharmacy,NA,Cape Coast Pharmacy,NA,NA,NA,NA,NA
+6532656562,pharmacy,NA,Seven Stars Chemist Limited,NA,NA,NA,NA,NA
+6532644047,pharmacy,NA,Panacea Pharmacy,NA,NA,NA,NA,NA
+6533634741,pharmacy,NA,Aslina Chemist,NA,NA,NA,NA,NA
+6533649583,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6533691846,pharmacy,NA,7 Days pharmacy,NA,NA,NA,NA,NA
+6535367088,NA,optometrist,Amasha Partners Ltd,NA,NA,NA,NA,NA
+6535918726,clinic,NA,NA,NA,NA,NA,NA,NA
+6535927364,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6535939308,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6535940042,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6535944367,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6535948184,pharmacy,NA,Ernest Chemist,NA,NA,NA,NA,NA
+6535950992,pharmacy,NA,Medicap Pharmacy,NA,NA,NA,NA,NA
+6542893585,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6542893588,pharmacy,pharmacy,Okam,NA,NA,NA,NA,NA
+6544013171,pharmacy,pharmacy,Calmart,NA,NA,NA,NA,NA
+6544018643,pharmacy,pharmacy,E.B Pharmacy,NA,NA,NA,NA,NA
+6544021969,pharmacy,pharmacy,Stadium Pharmacy Limited,NA,NA,NA,NA,NA
+6546836546,clinic,NA,Divine Clinic,NA,NA,NA,NA,NA
+6548963821,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6548964684,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6548972961,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6548982136,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6548982331,clinic,NA,NA,NA,NA,NA,NA,NA
+6548990400,clinic,NA,NA,NA,NA,NA,NA,NA
+6548990403,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6548996226,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6548997724,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6548997895,pharmacy,NA,Joyce Opoku,NA,NA,NA,NA,NA
+6548999012,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6548999493,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6549350138,clinic,NA,Foresight Medical Center,NA,NA,NA,NA,NA
+6549372324,pharmacy,NA,Citi Pharmacy,NA,NA,NA,NA,NA
+6553270613,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6553277206,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6553290009,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6553299076,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6553299077,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6553299805,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6553303372,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6554654892,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6554724540,pharmacy,NA,Volta Regional Medical Store,NA,NA,NA,NA,NA
+6556867994,pharmacy,NA,Mosmay Pharmacy,NA,NA,NA,NA,NA
+6556876189,pharmacy,NA,Tedgin Services,NA,NA,NA,NA,NA
+6561361846,pharmacy,NA,Lena Pharmacy,NA,NA,NA,NA,NA
+6573933182,dentist,NA,Kad Dental Service,NA,NA,NA,NA,NA
+6573951078,pharmacy,NA,Family Health Pharmacy,NA,NA,NA,NA,NA
+6573955391,clinic,NA,Sanford clinic,NA,NA,NA,NA,NA
+6575313093,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6575313088,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6575423200,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6577751037,clinic,NA,Pro-Life Medical Center,NA,NA,NA,NA,NA
+6581207997,clinic,NA,Efan Victory Clinic,NA,NA,NA,NA,NA
+6586388406,pharmacy,NA,Three Ace Pharmacy,NA,NA,NA,NA,NA
+6588780338,clinic,NA,Lucky Herbal Center,NA,NA,NA,NA,NA
+6588780837,clinic,NA,Komenda Health Center,NA,NA,NA,NA,NA
+6588784108,pharmacy,NA,Ashgin Pharmacy,NA,NA,Mo-Sa 08:00-10:00,NA,NA
+6588788818,NA,laboratory,Abura Medical Laboratory,NA,NA,NA,NA,NA
+6593269623,pharmacy,NA,Saqs Pharmacy,NA,NA,NA,NA,NA
+6593471393,pharmacy,pharmacy,Prime Pharmacy,NA,NA,NA,NA,NA
+6594159249,pharmacy,NA,Magic Mitch,NA,Open Cities Accra / GARID- Field Survey,NA,NA,NA
+6601013046,pharmacy,NA,Pillpoint,NA,NA,NA,NA,NA
+6603279912,NA,laboratory,RayBen Laboratories & Imaging,NA,NA,NA,NA,NA
+6604418259,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6609789080,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6610013524,pharmacy,NA,N. O. Armah - Agyemang chemical store,NA,NA,NA,NA,NA
+6615072325,clinic,doctor;hospital;laboratory;pharmacy,Darpong Clinic,NA,NA,NA,NA,NA
+6628538145,pharmacy,pharmacy,M & N Pharmacy,NA,NA,NA,NA,NA
+6628538146,pharmacy,pharmacy,Haskay Pharmacy,NA,NA,NA,NA,NA
+6628636244,clinic,clinic,NA,NA,NA,NA,NA,NA
+6628636261,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6628636253,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6643941879,pharmacy,pharmacy,Faako Pharmacy,NA,NA,NA,NA,NA
+6643941875,pharmacy,pharmacy,Xerion Chemist,NA,NA,NA,NA,NA
+6643992567,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6644101185,pharmacy,NA,Eye Nyame,NA,NA,NA,NA,NA
+6644128284,pharmacy,pharmacy,Baka Pharmacy,NA,NA,NA,NA,NA
+6644165397,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6644165408,clinic,clinic,God Cares Community Hospital,NA,NA,NA,NA,NA
+6649973861,clinic,NA,GBC Clinic,NA,NA,NA,NA,NA
+6653483985,pharmacy,NA,S.K Nsiah,NA,NA,NA,NA,NA
+6657361491,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6657361486,pharmacy,pharmacy,Sunday Medicine,NA,NA,NA,NA,NA
+6657361490,pharmacy,pharmacy,Bankaman Pharmacy,NA,NA,NA,NA,NA
+6657361501,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6657361519,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6657361524,pharmacy,pharmacy,Alhaji Bisuomi,NA,NA,NA,NA,NA
+6657361532,pharmacy,pharmacy,Opac Pharmacy,NA,NA,NA,NA,NA
+6657361534,pharmacy,pharmacy,Medical Lab Pharmacy,NA,NA,NA,NA,NA
+6657361530,pharmacy,pharmacy,UB Pharmacy,NA,NA,NA,NA,NA
+6657421184,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6657453008,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6657452993,pharmacy,pharmacy,Mohammed Alidu Chemicals,NA,NA,NA,NA,NA
+6657452996,pharmacy,pharmacy,Naayas Medical Centre,NA,NA,NA,NA,NA
+6657452997,clinic,clinic,Fuo Community Hospital,NA,NA,NA,NA,NA
+6657453027,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6657453037,clinic,clinic,Habana Medical Service,NA,NA,NA,NA,NA
+6657453038,pharmacy,pharmacy,Trust Care Pharmacy,NA,NA,NA,NA,NA
+6657453031,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6657453030,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6657453042,pharmacy,pharmacy,Salbelia Licenced Chemical Store,NA,NA,NA,NA,NA
+6657453040,pharmacy,pharmacy,Gina Pharmacy,NA,NA,NA,NA,NA
+6657453049,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6658579882,pharmacy,pharmacy,Jinlet,NA,NA,NA,NA,Accra
+6665811256,pharmacy,NA,James Bessa-Simons Pharmarcy,NA,NA,NA,NA,NA
+6673315763,NA,alternative,3G Medical Diagnosis,NA,NA,NA,NA,NA
+6673302845,pharmacy,NA,Lemon,NA,NA,NA,NA,NA
+6673369950,pharmacy,NA,Kofikrom,NA,NA,NA,NA,NA
+6682257763,pharmacy,NA,Joe Sarb Pharmacy,NA,NA,NA,Kumasi-Ejura Road,NA
+6685180981,pharmacy,NA,Manu Yaa pharmacy,NA,NA,NA,NA,NA
+6688847098,pharmacy,NA,Greenlight Pharmacy Annex,NA,NA,NA,NA,NA
+6698137436,pharmacy,NA,Michrisma,NA,NA,NA,NA,NA
+6698245380,clinic,NA,Nkwaeso Health Center,NA,NA,NA,NA,NA
+6698629385,pharmacy,NA,George Dadzie,NA,NA,NA,NA,NA
+6700363806,pharmacy,pharmacy,Premium Pharmacy and Mart,NA,NA,NA,NA,NA
+6700429721,pharmacy,NA,Over Flowing Grace,NA,NA,NA,NA,NA
+6700460529,pharmacy,NA,Tohaba Pharmacy,NA,NA,NA,NA,NA
+6700466399,pharmacy,NA,Poll Point Pharmacy,NA,NA,NA,NA,NA
+6700469570,pharmacy,NA,Biotic Pharmacy Limited,NA,NA,NA,NA,NA
+6700548830,pharmacy,NA,Ernest Chemist Limited,NA,NA,NA,NA,NA
+6700604298,pharmacy,NA,Vicar Pharmacy,NA,NA,NA,NA,NA
+6700705046,pharmacy,NA,Pill Point Pharmacy,NA,NA,NA,NA,NA
+6700736590,pharmacy,NA,Capa Chemist,NA,NA,NA,NA,NA
+6702081250,pharmacy,NA,Erisa Pharmacy,NA,NA,NA,NA,NA
+6702602170,pharmacy,NA,J&A Pharmacy,NA,NA,NA,NA,NA
+6702615980,pharmacy,NA,Timeless Pharmacy,NA,NA,NA,NA,NA
+6703531223,pharmacy,NA,Jessumana Pharmacy,NA,NA,NA,NA,NA
+6703755509,pharmacy,NA,Tap Pharmacy,NA,NA,Mo-Sa 6:30-22:00; Su 12:30-21:00,NA,NA
+6711467326,clinic,NA,Amerilife Spine Clinic,NA,NA,NA,NA,NA
+6715214855,pharmacy,NA,EDPA Pharmacy,NA,NA,NA,NA,NA
+6715223673,doctors,NA,CITA Geakrh,NA,NA,NA,NA,NA
+6715840101,pharmacy,NA,Muzey Drug Store,NA,NA,NA,NA,NA
+6716172073,pharmacy,NA,Manu Yaa pharmacy,NA,NA,NA,NA,NA
+6716171063,clinic,NA,Nkwaeso Health Center,NA,NA,NA,NA,NA
+6719795485,pharmacy,NA,pile box,NA,NA,NA,NA,NA
+6721877883,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6727482684,clinic,NA,Christian Medical Service Clinic,NA,NA,NA,NA,NA
+6732445513,pharmacy,NA,Mapok,NA,NA,NA,NA,NA
+6732455567,pharmacy,NA,Tinattet Herbal Centre,NA,NA,NA,NA,NA
+6742877664,pharmacy,NA,Top-Up Pharmacy,NA,NA,24-Jul,NA,NA
+6743972962,pharmacy,NA,Frankiz,NA,NA,NA,NA,NA
+6743975908,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6743999386,pharmacy,NA,Vicmag Pharmacy,NA,NA,NA,NA,NA
+6744277475,pharmacy,NA,GAB Pharmacy,NA,NA,NA,NA,NA
+6745955523,pharmacy,NA,NA,NA,NA,NA,Bosam avenue,NA
+6745979727,pharmacy,NA,NA,NA,NA,NA,Bosam Avenue,NA
+6746063694,pharmacy,NA,Barliza pharmacy,NA,NA,NA,Municipal Hospital Road,NA
+6746346239,pharmacy,NA,Millan Elements,NA,NA,NA,NA,NA
+6747184248,pharmacy,NA,Glem Pharmacy,NA,NA,NA,NA,NA
+6753538057,pharmacy,NA,Evepet Pharmacy,NA,NA,NA,NA,NA
+6753546541,pharmacy,NA,Jeck?? Pharmacy,NA,NA,NA,NA,NA
+6755669332,pharmacy,NA,Discount Pharmacy,NA,NA,NA,NA,NA
+6760291141,pharmacy,NA,O.T.C Drugstore,NA,NA,NA,Mim-Kukuom road,NA
+6769611313,pharmacy,NA,Jilak Chemists,NA,NA,NA,NA,NA
+6772261844,pharmacy,NA,Quantum Pharmacy,NA,NA,NA,NA,NA
+6772277885,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6772265390,clinic,NA,Dr. Mensah Herbal Clinic & Shop,NA,NA,NA,NA,NA
+6779147423,pharmacy,NA,TJ Nhyira Herbal Home,NA,NA,NA,NA,NA
+6788165080,pharmacy,NA,NA,NA,NA,NA,Nana Boakye Avenue,NA
+6795161816,pharmacy,pharmacy,Eye Plus Pharmacy,NA,NA,NA,NA,NA
+6797165933,pharmacy,NA,EverCare Pharmacy,NA,NA,NA,NA,NA
+6814403385,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6814416786,pharmacy,NA,Med Court,NA,NA,NA,NA,NA
+6814427686,pharmacy,NA,Danpong Pharmacy,NA,NA,NA,NA,NA
+6814430285,pharmacy,NA,Miney Pharmacy,NA,NA,NA,NA,NA
+6815492125,pharmacy,pharmacy,Ginapharma Ldt.,NA,NA,NA,NA,NA
+6816243585,pharmacy,NA,Santa,NA,NA,NA,NA,NA
+6820953251,pharmacy,pharmacy,Doram Pharmacy,NA,NA,NA,NA,NA
+6823896185,pharmacy,NA,Max Professional ltd,NA,NA,NA,Pokuase,NA
+6825058462,pharmacy,pharmacy,BrainTree,NA,NA,NA,NA,NA
+6825058463,dentist,dentist,O.K.E Dental Clinic,NA,NA,NA,NA,NA
+6846113431,pharmacy,pharmacy,Healthaus Pharmacy,NA,NA,NA,NA,Accra
+6853284073,pharmacy,pharmacy,Cecilia S. Azabu,NA,NA,NA,NA,NA
+6853310742,NA,laboratory,BDS Laboratories Ldt.,NA,NA,NA,NA,NA
+6859260076,pharmacy,pharmacy,NA,NA,NA,NA,NA,Accra
+6869905697,pharmacy,NA,Axis Pharmacy,NA,NA,NA,NA,NA
+6876160102,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6876224125,pharmacy,NA,Far-Habink Pharmacy,NA,NA,NA,NA,NA
+6882941356,clinic,clinic,Medical & Dental Clini6,NA,NA,NA,NA,NA
+6883017727,pharmacy,NA,Marpe Pharmacy,NA,NA,NA,NA,NA
+6892763208,pharmacy,NA,Sterada Pharmacy Limited,NA,NA,NA,NA,NA
+6897763704,clinic,NA,La Medicare Ltd,NA,NA,NA,NA,NA
+6908414026,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6916218475,pharmacy,pharmacy,Madam Marry Adekurah,NA,NA,NA,NA,NA
+6916520654,clinic,clinic,Zonno Chps,NA,NA,NA,NA,NA
+6917993313,pharmacy,NA,Clinic Diagnostic Pharmacy,NA,NA,NA,NA,NA
+6919099377,pharmacy,NA,The Mall Pharmacy,NA,NA,NA,NA,NA
+6923924091,clinic,clinic,Airport Clinic Limited,NA,NA,NA,NA,NA
+6923935295,clinic,clinic,Airport Clinic Limited,NA,NA,NA,NA,NA
+6924791879,pharmacy,NA,Delight Pharmacy,NA,NA,NA,NA,NA
+6925089485,pharmacy,NA,Topmed Pharmacy,NA,NA,NA,NA,NA
+6925128752,pharmacy,NA,Media Pharmacy,NA,NA,NA,NA,NA
+6930474723,clinic,NA,The Oak Street Clinic & Laboratory,NA,NA,NA,Oak Street,NA
+6930620869,pharmacy,NA,Biotic Pharmacy Limited,NA,NA,NA,NA,NA
+6936362984,pharmacy,NA,Mikaddo Pharmacy Limited,NA,NA,NA,NA,NA
+6937973927,pharmacy,NA,Rima-Riva,NA,NA,NA,NA,NA
+6937989712,pharmacy,NA,Peace Pharmacy,NA,NA,NA,NA,NA
+6938008914,pharmacy,NA,Phimed,NA,NA,NA,NA,NA
+6938228121,clinic,NA,Justab Clinic,NA,NA,NA,NA,NA
+6938858994,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6938868418,pharmacy,NA,Health Corner,NA,NA,NA,NA,NA
+6938921774,pharmacy,NA,Palace Pharmacy,NA,NA,NA,NA,NA
+6939763699,pharmacy,NA,Essel Pharmacy,NA,NA,NA,NA,NA
+6950090543,pharmacy,pharmacy,Life Pharmacy,NA,NA,NA,NA,NA
+6950331680,pharmacy,NA,Nima Highway Pharmacy,NA,Open Cities Accra / GARID- Field Survey,NA,Al-Waleed Bin-Talal Highway,Accra
+6950424396,pharmacy,NA,Jucad Pharmacy,NA,NA,NA,NA,NA
+6950451591,pharmacy,NA,Nhyira Pharmacy,NA,NA,NA,NA,NA
+6953609643,pharmacy,NA,Enerst Chemist,NA,NA,NA,NA,NA
+6958422911,clinic,NA,Dons Medical Services,private_profit,Open Cities Accra / GARID- Field Survey,Mo-Sa 08:00-18:00,Al-Waleed Bin-Talal Highway,Accra
+6958422969,clinic,NA,New Cross Clinic and Medical,private_profit,Open Cities Accra / GARID- Field Survey,24-Jul,Yahaya Seidu Street,Accra
+6958423005,pharmacy,NA,Lesson Pharmacy,private_profit,Open Cities Accra / GARID- Field Survey,Mo-Sa 08:00-18:00,Al-Waleed Bin-Talal Highway,Accra
+6960499228,pharmacy,NA,NA,NA,NA,NA,NA,NA
+6960812174,clinic,NA,Vision Clinic,private_np,Open Cities Accra / GARID- Field Survey,Mo-Fr 09:00-17:00,Alhaji Mayaki Street,Accra
+6970189706,clinic,NA,Royal Star Clinic and Diagnostic Center,private_profit,Open Cities Accra / GARID- Field Survey,Mo-Su 09:00-21:00,Briahema Gyemila Crescent,Accra
+6974715277,pharmacy,NA,AnsaPharma,NA,NA,24-Jul,NA,NA
+6975166245,clinic,NA,Layfa Clinic,private_profit,Open Cities Accra / GARID- Field Survey,24-Jul,Mallam Futa Street,Accra
+6975237624,pharmacy,NA,Nyala Phamacy,NA,Open Cities Accra / GARID- Field Survey,NA,Kanda Highway,Accra
+6975562195,pharmacy,NA,Sakeena Ofosu,NA,NA,NA,NA,NA
+6976507206,dentist,NA,NA,NA,NA,NA,NA,NA
+6976560804,pharmacy,NA,Paul Opoku,private_profit,Open Cities Accra / GARID- Field Survey,Mo-Fr 08:00-18:00; Sa-Su 08:00-15:00,Reverend Dogbe Street,Accra
+6976560824,pharmacy,NA,Z. A Herbal Home,private_profit,Open Cities Accra / GARID- Field Survey,Mo-Fr 08:00-18:00; Sa-Su 08:00-15:00,Oshieye Street,Accra
+6976854419,pharmacy,NA,Nana Panin Herbal And Research Centre,private_profit,Open Cities Accra / GARID- Field Survey,NA,Al-Waleed Bin-Talal Highway,Accra
+6977988712,clinic,NA,The Oak Street Clinic,NA,NA,"Mo-Fr 8:00-18:00,Sa 7:00-13:00",Oak Street,NA
+6984618077,clinic,NA,Sina Zuwina Herbal Center,NA,Open Cities Accra / GARID- Field Survey,Mo-Sa 09:00-17:00,Reverend Dogbe Street,Accra
+6985230183,pharmacy,NA,Zagus Chemicals,private_profit,Open Cities Accra / GARID- Field Survey,NA,Oku Street,Accra
+6985350566,pharmacy,NA,Magmitch Pharmacy,NA,Open Cities Accra / GARID- Field Survey,NA,Oku Street,Accra
+6989588759,clinic,NA,NA,NA,NA,NA,NA,NA
+6989603203,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6989602447,pharmacy,pharmacy,Azeko Sadiatu Salifu,NA,NA,NA,NA,NA
+6989978136,pharmacy,NA,Interbrain Pharmacy Limited,private_profit,Open Cities Accra / GARID- Field Survey,NA,Al-Waleed Bin-Talal Highway,Accra
+7014066720,pharmacy,pharmacy,Evans Chemicals,NA,Open Cities Accra / GARID- Field Survey,NA,Mbomou Street,Accra
+784183691,pharmacy,NA,NA,NA,NA,NA,NA,NA
+7015538712,clinic,NA,Zak-med Clinic,private_profit,Open Cities Accra / GARID- Field Survey,NA,Odonko Street,Accra
+7018299902,pharmacy,NA,Sievako Pharmacy Limited,private_profit,Open Cities Accra / GARID- Field Survey,NA,Alajo High Street,Accra
+7018299938,clinic,NA,Lifeview Medical Laboratory and Ultra Scan centre,private_profit,Open Cities Accra / GARID- Field Survey,NA,Alajo High Street,Accra
+7038861920,pharmacy,pharmacy,37 Pharmacy,NA,NA,NA,NA,NA
+7041388696,clinic,NA,Anglican Medical Center,NA,NA,NA,NA,NA
+7046135614,NA,alternative,Evergreen Natural Wellness Herbal Shop,NA,NA,NA,NA,NA
+7046135638,NA,alternative,Menaba Herbal Center,NA,NA,NA,NA,NA
+7047185822,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+7047185832,pharmacy,pharmacy,Ahmed Iddrisu Chemical Seller,NA,NA,NA,NA,NA
+7047185833,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+7047185856,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+7047185870,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+7051293354,pharmacy,NA,Bedita,NA,NA,Su 14:00-21:00; Mo-Sa 07:30-22:00,Boundary road,NA
+7055472811,pharmacy,pharmacy,Bencyn Pharmacy,NA,NA,NA,NA,NA
+7057170029,NA,laboratory,Iqurate Laboratory Consult Ltd.,NA,NA,NA,NA,NA
+7086685099,clinic,clinic,Namolgo Clinic,NA,NA,NA,NA,NA
+7089598505,pharmacy,pharmacy,Eye of God Pharmacy,NA,NA,NA,NA,NA
+7091233013,pharmacy,NA,White Tower,NA,NA,Mo-Sa 08:00-21:00; Su 17:00-21:00,NA,NA
+7091255034,pharmacy,pharmacy,Ndeogo Regina,NA,NA,NA,NA,NA
+7095363870,pharmacy,NA,NA,NA,NA,NA,NA,NA
+7095401440,pharmacy,NA,NA,NA,NA,NA,NA,NA
+7095415507,pharmacy,NA,Voek Pharmacy,NA,NA,NA,NA,NA
+7102234383,pharmacy,pharmacy,Jim - Beck,NA,NA,NA,NA,NA
+7115087242,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+7115122023,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+7118950570,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+7119881704,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+7119947983,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+7119985893,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+7120536455,pharmacy,NA,Riad,NA,NA,NA,NA,NA
+7127806850,pharmacy,NA,MycroChemist Pharmacy,NA,NA,NA,NA,NA
+7127853157,clinic,NA,Save the Nation's Sight Clinic,NA,NA,Mo-Fr 07:30-16:00; Sa-Su 08:30-16:00,NA,NA
+7128879152,clinic,NA,Amamorley community town,NA,NA,NA,NA,NA
+7133423371,pharmacy,pharmacy,24hr Pharmacy,NA,NA,NA,NA,NA
+7133423372,pharmacy,pharmacy,Mainstreet Pharmacy,NA,NA,NA,NA,NA
+7133423365,pharmacy,pharmacy,Day and Night Pharmacy,NA,NA,NA,NA,NA
+7133423364,pharmacy,pharmacy,Obarsi Pharmacy,NA,NA,NA,NA,NA
+7133434576,pharmacy,pharmacy,Pharmacy,NA,NA,NA,NA,NA
+7140706354,pharmacy,pharmacy,Bimex,NA,NA,NA,NA,NA
+7142877776,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+7142921288,pharmacy,pharmacy,Pillpoint Pharmacy,NA,NA,NA,NA,NA
+7151828423,pharmacy,pharmacy,Grit Pharmacy,NA,NA,NA,NA,NA
+7154060541,pharmacy,pharmacy,Norkids,NA,NA,NA,NA,NA
+7162116722,pharmacy,NA,Kelmed Pharmaceuticals,NA,NA,NA,NA,NA
+7164564613,pharmacy,pharmacy,Pharmatrust Pharmacy,NA,NA,NA,NA,NA
+7170251487,pharmacy,pharmacy,Pharma George,NA,NA,NA,NA,NA
+7171466999,pharmacy,pharmacy,Add Pharma,NA,NA,NA,NA,NA
+7182261015,pharmacy,pharmacy,Benalice,NA,NA,NA,NA,NA
+7183821686,clinic,NA,Be im Chips Compound,NA,NA,NA,NA,NA
+7187301603,pharmacy,NA,Zoe Pharmacy,NA,NA,NA,NA,NA
+7187310367,clinic,NA,Mini Clinic,NA,NA,NA,NA,NA
+7189911885,clinic,NA,Kumfia Healthcare,NA,NA,NA,NA,NA
+7189965785,clinic,NA,Kumfia Healthcare,NA,NA,NA,NA,NA
+7190143185,clinic,NA,Fakwasi,NA,NA,NA,NA,NA
+7190871602,pharmacy,NA,NA,NA,NA,NA,NA,NA
+7190878321,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+7193211854,pharmacy,NA,Wellmark Pharmacy,NA,NA,NA,NA,NA
+7193220303,dentist,NA,New Vision Dental Clinic Annex,NA,NA,Mo-Sa 08:30-17:00,NA,NA
+7198169490,clinic,NA,Asubingya chip compounds,NA,NA,NA,NA,NA
+7198661876,pharmacy,pharmacy,Sir Swanzy Chemicals,NA,NA,NA,NA,NA
+7198689151,pharmacy,pharmacy,Chrismark,NA,NA,NA,NA,NA
+7200605487,clinic,NA,Kunsu chip compound,NA,NA,NA,NA,NA
+7201326687,clinic,NA,Manchala chip co,NA,NA,NA,NA,NA
+7203314586,clinic,NA,Dumso Bethel CHPS,NA,NA,NA,NA,NA
+7204700917,pharmacy,NA,Love pharmacy,NA,NA,NA,NA,NA
+7207976460,pharmacy,NA,Eden Royal,NA,NA,NA,NA,NA
+7208020586,clinic,NA,Dantano chips compound,NA,NA,NA,NA,NA
+7208234895,clinic,NA,Pafo Nkwanta Chips compound,NA,NA,NA,NA,NA
+7208247185,clinic,NA,NA,NA,NA,NA,NA,NA
+7208528785,clinic,NA,Asarekrom CHPS,NA,NA,NA,NA,NA
+7209372663,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+7209383695,pharmacy,pharmacy,Hemins Pharmacy Limited,NA,NA,NA,NA,NA
+7211393385,pharmacy,NA,M&G Pharmaceuticals,NA,NA,NA,NA,NA
+7211448645,pharmacy,NA,M&G whole sale division,NA,NA,NA,NA,NA
+7211660772,pharmacy,NA,Letap pharmacy,NA,NA,NA,NA,NA
+7213787583,pharmacy,pharmacy,QuasiPharma,NA,NA,NA,NA,NA
+7214156287,clinic,NA,Mw,NA,NA,NA,NA,NA
+7215950604,pharmacy,pharmacy,Ami Pharmacy,NA,NA,NA,NA,NA
+7215965920,pharmacy,pharmacy,Sergen,NA,NA,NA,NA,NA
+7218556808,pharmacy,NA,Benatash Pharmacy,NA,NA,NA,NA,NA
+7222513545,pharmacy,pharmacy,Bridge View Pharmacy,NA,NA,NA,NA,NA
+7238982597,pharmacy,pharmacy,Matcare Pharmacy,NA,NA,NA,NA,NA
+7238982607,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+7238982608,pharmacy,pharmacy,Lena Pharmacy,NA,NA,NA,NA,NA
+7244407587,clinic,NA,Nwawasua Chips compound,NA,NA,NA,NA,NA
+7245552671,pharmacy,NA,De Pablo Limited,NA,NA,NA,NA,NA
+7247675185,clinic,NA,Nkyenkyemam chips compound,NA,NA,NA,NA,NA
+7247901585,clinic,NA,Bodaa chips compound,NA,NA,NA,NA,NA
+7248247385,clinic,NA,Dawiri chips compound,NA,NA,NA,NA,NA
+7251099585,clinic,NA,Tiadene chips compound,NA,NA,NA,NA,NA
+7251249885,clinic,NA,Gyau CHPS Compound,NA,NA,NA,NA,NA
+7252688372,pharmacy,NA,Family Care Pharmacy,NA,NA,NA,NA,NA
+7257493786,clinic,NA,Mansion chips compound,NA,NA,NA,NA,NA
+7257973786,clinic,NA,Asuboi chips compound,NA,NA,NA,NA,NA
+7258014287,pharmacy,NA,Dunamis Pharmacy Limited,NA,NA,NA,Dr. Obour Boffah Link,NA
+7258191886,clinic,NA,Adaa CHPS Compound,NA,NA,NA,NA,NA
+7266056585,pharmacy,NA,Camden,NA,NA,NA,NA,NA
+7267248249,pharmacy,pharmacy,Raise chemist,NA,NA,NA,NA,NA
+7267287583,pharmacy,NA,Kinschem Pharmacy,NA,NA,NA,NA,NA
+7267284362,pharmacy,NA,Swanlake Pharmacy,NA,NA,NA,NA,NA
+7273923606,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+7282918527,pharmacy,NA,PalmAid Pharmacy,NA,NA,NA,NA,NA
+7291702385,pharmacy,NA,GLORIA K. TETTEH,NA,NA,Mo-Sa 07:30-21:00,Atta Mills Road,NA
+7293055585,pharmacy,NA,Mcaliz Pharmacy,NA,NA,NA,NA,NA
+7296409694,pharmacy,NA,Baseline,NA,NA,NA,NA,NA
+7306802598,pharmacy,NA,NA,NA,NA,NA,NA,NA
+7308441494,hospital,birthing_center;doctor,Osu Maternity Home Hospital,NA,NA,NA,Reverend Richter Street,Accra
+7312485183,hospital,NA,Neptune Medical Centre,NA,local knowledge,NA,NA,NA
+7312927785,clinic,clinic,Kwapraw CHP,Government of Ghana,NA,NA,NA,NA
+7313037097,pharmacy,pharmacy,Cape Pill Pharmacy,NA,NA,Mo-Sa 08:00-22:00; Su 12:00-22:00,NA,NA
+7314160685,clinic,blood_donation;clinic;doctor;laboratory,University Clinic,University of Education,NA,Mo-Fr 00:00-23:55,NA,NA
+7314169485,clinic,alternative;birthing_centre;blood_donation;clinic;doctor;laboratory,Klimovic Clinic,Klimovic,NA,24-Jul,NA,NA
+7315515986,clinic,clinic,st joseph's clinic an maternity home,NA,NA,24-Jul,NA,NA
+7315829926,pharmacy,pharmacy,Pharmatrust Professional college,Pharmatrust,NA,24-Jul,NA,NA
+7316574318,pharmacy,pharmacy,PrijoPharma,NA,NA,NA,NA,NA
+7316763985,pharmacy,pharmacy,Accura Pharmacy,NA,NA,NA,NA,NA
+7317073985,pharmacy,pharmacy,Agyen Pharmacy,Private,NA,Mo-Fr 08:00-21:00; Sa 09:00-21:00; Su 00:13-21:55,NA,NA
+7317116285,clinic,clinic;doctor;laboratory;pharmacy,Pentecost Clinic,NA,NA,24-Jul,NA,NA
+7317139586,clinic,birthing_center;clinic;pharmacy,Sibi Central CHPS Compound,NA,NA,24-Jul,NA,NA
+7317215185,clinic,clinic,Students Clinic,University Health Service,NA,Mo-Fr 05:00-05:00,NA,NA
+7319284442,hospital,yes,SDA Hospital,NA,NA,NA,NA,NA
+7321882985,clinic,NA,Elubo Health Center,NA,NA,24-Jul,NA,NA
+7325200485,pharmacy,NA,Hands of God (Thomas Voduh Mensah),Vincent Akakpo Voduh,NA,Mo-Sa 07:00-20:00,Takoradi Station,NA
+7325282485,pharmacy,NA,Armstrong Ampontuah,Armstrong Ampontuah,NA,Mo-Su 09:00-18:00,Main Street,NA
+7325296085,pharmacy,NA,Phinas Pharmacy,Freda Bonifacio,NA,Mo-Sa 07:00-18:00,N1 Highway,NA
+7325524085,pharmacy,NA,4 Corners Herbal Centre,Adjaloo,NA,Mo-Su 06:00-21:00,4 corners,NA
+7325524185,pharmacy,NA,Joseph Amoah  Pharmacy,Joseph Amoah,NA,Mo-Sa 07:00-21:00,4 corners,NA
+7325598086,pharmacy,NA,Albert A. Arma,Albert A. Arma,NA,Mo-Sa 07:30-21:00,Gyinakro main road,NA
+7325598087,pharmacy,NA,God's Time Chemicals -Michael Ansah Sagu,Michael Ansah Sagu,NA,Mo-Su 07:00-19:00,18 street,NA
+7325610485,pharmacy,NA,James Nyianle Kwaw,James Nyianle Kwaw,NA,Mo-Sa 07:00-21:00,Daadwene,NA
+7325629087,pharmacy,pharmacy,Thomas Amonle Pharmacy,Thomas Amonle,NA,Mo-Sa 07:00-22:00,Zongo street,NA
+7325629085,pharmacy,NA,Nyankson Amihere,Mary Armah,NA,NA,Main Street,NA
+7325629086,pharmacy,NA,Danfoss chemicals,Frank Asirifi,NA,Mo-Su 08:00-22:00,Main Street,NA
+7328643108,pharmacy,NA,East Cantonments Pharmacy,NA,NA,NA,NA,NA
+7329467685,pharmacy,NA,St. Martin's Chemists,Martin Ackah,NA,Mo-Sa 07:00-18:00,N1 Highway,NA
+7329666985,pharmacy,NA,Agnes Allah Pharmacy,Agnes Allah,NA,NA,N1 Highway,NA
+7329667185,clinic,NA,Frontier Clinic,NA,NA,24-Jul,N1 Highway,NA
+7329793485,pharmacy,NA,Vins Pharmacy,NA,NA,Mo-Sa 08:00-20:00,NA,NA
+7330176585,hospital,birthing_center;blood_donation;doctor;hospital;laboratory;pharmacy,Asesewa Government Hospital,Government,NA,24-Jul,NA,NA
+7331952065,pharmacy,pharmacy,RX Pharmacy,NA,NA,Mo-Fr 09:00-17:00,Teiman-Abokobi Road,Accra
+7331974110,pharmacy,pharmacy,Aide Pharmacy,Nana Ama Abora,NA,Mo-Su 07:00-11:00,Teiman-Abokobi Road,Accra
+7332012111,clinic,clinic,Isaac Opuni License Chemical,Isaac Opuni Chemical,NA,NA,Teiman-Abokobi Road,Accra
+7332075463,pharmacy,pharmacy,Bright Kwasi Ameho,NA,NA,NA,Burgers Town,NA
+7335482236,clinic,clinic,Life Health Care,NA,NA,NA,NA,NA
+7348800676,clinic,clinic,Givers Scientic Herbal Clinic,NA,NA,NA,NA,NA
+7348800680,pharmacy,pharmacy,Kingstreet Pharmacy,NA,NA,NA,NA,NA
+7348800679,pharmacy,pharmacy,Mutti Pharmacy,NA,NA,NA,NA,NA
+7383192362,clinic,clinic,Nsuakyire Community Clinic,Government,NA,Mo-Fr 08:00-17:00,NA,NA
+7383450050,clinic,clinic,Gyangyazie Community clinic,government,NA,NA,NA,NA
+7388379167,NA,pharmacy,City Chemicals,NA,NA,NA,NA,NA
+7401843038,clinic,NA,Larabanga Health Clinic,NA,NA,NA,NA,NA
+7439191623,clinic,NA,Agbogba Community Clinic,NA,NA,"Mo-Su,PH 00:00-23:59",NA,NA
+7441173154,pharmacy,pharmacy,Obitu A. Adam OTC,NA,NA,NA,NA,NA
+7441397234,pharmacy,pharmacy,Good Start Pharmacy Limited,NA,NA,"Mo-Fr 07:30-22:00; Sa, Su 14:00-21:00",NA,NA
+7464619985,clinic,NA,Apenamadi chips compound,NA,NA,NA,NA,NA
+7471932854,pharmacy,NA,Tofeefy Pharmacy,NA,NA,NA,NA,NA
+7471974190,pharmacy,NA,Crystal,NA,NA,NA,NA,NA
+7471988345,pharmacy,NA,NA,NA,NA,NA,NA,NA
+7472011399,pharmacy,NA,Kess Pharmacy,NA,NA,NA,Ecowas Road,NA
+7472405929,pharmacy,NA,NA,NA,NA,NA,NA,NA
+7473457978,hospital,NA,Mankranso Government Hospital,NA,NA,NA,NA,NA
+7476292381,hospital,hospital,Tanoso community hospital,NA,NA,NA,Sunyani Road,Kumasi
+7494706785,pharmacy,NA,Pearllane Pharmacy Ltd.,NA,NA,NA,NA,NA
+7495050567,pharmacy,NA,Just ask Pharmacy and Mart,NA,NA,NA,NA,NA
+7496247952,pharmacy,NA,Kklay,NA,NA,NA,NA,NA
+7502297591,pharmacy,NA,Medicap Pharmacy,NA,NA,NA,NA,NA
+7516013352,pharmacy,pharmacy,Kent Pharmacy,NA,NA,NA,NA,NA
+7526173959,clinic,clinic,Medline,NA,NA,NA,NA,NA
+7532272117,dentist,NA,King Solomon Dental Clinic,NA,NA,NA,NA,NA
+7566424316,pharmacy,pharmacy,Hale Pharmacy,NA,NA,NA,NA,NA
+7566448586,clinic,NA,Adaklu Ahunda Health Centre,NA,NA,NA,NA,NA
+7572285985,pharmacy,NA,Donatus Pharmacy,Mr Donatus,NA,24-Jul,Ecomoc Street,Techiman
+7574477905,pharmacy,NA,Presben Pharmacy Limited,NA,NA,NA,NA,NA
+7574692591,hospital,NA,NA,NA,NA,NA,NA,NA
+7574692594,pharmacy,NA,Deladem Pharmacy,NA,NA,NA,NA,NA
+7574692595,pharmacy,NA,NA,NA,NA,NA,NA,NA
+7581511128,hospital,hospital,Aiyinase Clinic,NA,NA,NA,NA,NA
+7581519435,hospital,hospital,Nana Benie Memorial Health Centre,NA,NA,NA,NA,Menzezor
+7595212785,clinic,NA,Enape Clinic,NA,NA,Mo-Fr 00:00-24:00,Tuobodom Magazine Road,NA
+7600226974,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+7600226975,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+7600588293,pharmacy,pharmacy,Star Med,NA,NA,NA,NA,NA
+7606543531,pharmacy,pharmacy,Excora Pharmacy,NA,NA,Mo-Su 07:00-22:00,NA,NA
+7614571218,pharmacy,NA,Visat Pharmacy,NA,NA,NA,NA,NA
+7619067100,pharmacy,pharmacy,Albert Mensah Cemical store,NA,local knowledge;aerial imagery,Mo-Su 08:00-22:00,Sefwi Bekwai to Wiawso Road,Sefwi Bekwai
+7620479757,hospital,NA,West Gonja Hospital,NA,NA,NA,NA,NA
+7625364314,pharmacy,NA,Aide Pharmacy,NA,NA,NA,NA,NA
+7629520511,pharmacy,pharmacy,Open 24 Hours Pharmacy,NA,NA,NA,NA,NA
+7629520515,NA,laboratory,MDS-Lancet,NA,NA,NA,NA,NA
+7631821113,NA,laboratory,MDS-Lancet Laboratories,NA,NA,NA,NA,NA
+7634510373,clinic,NA,NA,NA,NA,NA,NA,NA
+7634539648,pharmacy,NA,Akpabe Pharmacy Limited,NA,NA,NA,NA,NA
+7637963327,pharmacy,NA,KFB Pharmacy,NA,NA,NA,NA,NA
+7640382185,pharmacy,NA,Linah Asante,NA,NA,NA,NA,NA
+7680295224,pharmacy,NA,Patrick Boakye Godmyeth Over the Counter MedicineSeller,NA,NA,NA,NA,NA
+7693042673,clinic,NA,Penbrose Clinic,NA,NA,NA,NA,NA
+7693055793,pharmacy,NA,Frimata Pharmacy,NA,NA,NA,NA,NA
+7695271196,clinic,clinic,NA,NA,NA,NA,NA,NA
+7697394222,NA,laboratory,Nana Amoako Diagnotic Limited,NA,NA,Mo-Fr 08:00-17:00,Asankrangua Road,Sefwi Bekwai
+7704399539,clinic,NA,Anyinasuso Health Centre,NA,NA,NA,NA,NA
+7706543085,clinic,NA,Ekebaku Health Centre,GHS,NA,NA,NA,NA
+7716420846,clinic,NA,Buipe Health Center,NA,NA,NA,NA,NA
+7727437261,pharmacy,NA,Baseline,NA,NA,NA,NA,NA
+7727444139,hospital,NA,NA,NA,NA,NA,NA,NA
+7742977685,clinic,NA,Queensville West Medical Diagnostic,NA,NA,NA,NA,NA
+7742977686,clinic,NA,Linfam Medical Centre,NA,NA,NA,NA,NA
+7745148440,pharmacy,NA,Robert Gyedu Pharmacy,NA,NA,NA,NA,NA
+7745148441,pharmacy,NA,Mosan Frontline Pharmacy,NA,NA,NA,NA,NA
+7745167712,pharmacy,NA,ATM Pharmacy,NA,NA,NA,NA,NA
+7745633847,pharmacy,NA,Tobinco Pharmacy,NA,NA,NA,NA,NA
+7746284986,hospital,NA,Nzema Baptist Hospital,NA,NA,NA,NA,NA
+7751969567,pharmacy,NA,Kinapharma Limited,NA,NA,NA,NA,NA
+7751989786,pharmacy,NA,Western Chemicals,NA,NA,NA,NA,NA
+7755276266,pharmacy,pharmacy,180 Plus Pharmacy,NA,NA,"Mo-Sa 07:30-21:30, Su 9:00-21:00",Bibiani - Nyinahin - Kumasi Road,Bibiani
+7755325222,pharmacy,pharmacy,Jofas Pharmacy,NA,NA,"Mo-Sa 08:00-22:00, Su 14:00-22:00",Bibiani - Nyinahin - Kumasi Road,BIBIANI
+7758303994,pharmacy,NA,Ayrton Drugs,NA,NA,NA,NA,NA
+7761437285,pharmacy,NA,J. S Asamoah,NA,NA,NA,NA,NA
+7761436002,pharmacy,NA,Millennium Pharmacy,NA,NA,NA,NA,NA
+7767669321,clinic,NA,Top Herbal Clinic,NA,NA,Mo-Fr 08:00-16:00; Sa 08:00-13:00,NA,NA
+7774301190,pharmacy,pharmacy,New Discovery Pharmacy,NA,NA,NA,NA,NA
+7775284579,pharmacy,NA,Veronica Sasah,NA,NA,NA,NA,NA
+7775289597,pharmacy,NA,McCarthy Hill Pharmacy,NA,NA,NA,NA,NA
+7775290904,pharmacy,NA,Claks Mosk Chemist,NA,NA,NA,NA,NA
+7775298236,pharmacy,NA,Licensed Over the Counter,NA,NA,NA,NA,NA
+7775298756,pharmacy,NA,Rejoice Sename,NA,NA,NA,NA,NA
+7775299415,pharmacy,NA,NA,NA,NA,NA,NA,NA
+7775302897,pharmacy,NA,Fountain Spring Pharmacy,NA,NA,NA,NA,NA
+7775772659,pharmacy,NA,Delivery Chemist,NA,NA,NA,NA,NA
+7775821111,pharmacy,NA,Hilton Chemist Limited,NA,NA,NA,NA,NA
+7775836840,hospital,NA,Accra West Medical Centre,NA,NA,NA,NA,NA
+7777502131,hospital,NA,NA,NA,NA,NA,NA,NA
+7777513011,pharmacy,NA,Declan Pharmacy,NA,NA,NA,NA,NA
+7777512985,pharmacy,NA,Jephong,NA,NA,NA,NA,NA
+7779103597,pharmacy,NA,Listings,NA,NA,NA,NA,NA
+7781261486,hospital,NA,Wegbe Kpalime Health Centre,NA,NA,NA,NA,NA
+7799269525,pharmacy,NA,NA,NA,NA,NA,NA,NA
+7799331930,pharmacy,NA,Pokuase Pharmacy,NA,NA,NA,NA,NA
+7804758861,clinic,NA,Maryland Clinic,NA,NA,NA,NA,NA
+7810005711,clinic,NA,Shalina,NA,NA,NA,NA,NA
+7810232498,pharmacy,NA,Floss Pharma,NA,NA,NA,NA,NA
+7810461597,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+7812008490,hospital,NA,Mother Love,NA,NA,NA,NA,NA
+7812284286,pharmacy,NA,Theonic Pharmacy,NA,NA,NA,NA,NA
+7814702658,pharmacy,NA,GAFAT pharmacy,NA,NA,NA,NA,NA
+7814711688,pharmacy,NA,NA,NA,NA,NA,NA,NA
+7837916785,pharmacy,NA,Firdaws Pharmacy Ltd,NA,NA,NA,Kwashieman Ofankor Road,NA
+7856510593,pharmacy,pharmacy,Novomed,NA,NA,NA,NA,NA
+7858372628,pharmacy,NA,NA,NA,NA,NA,NA,NA
+7859185106,pharmacy,NA,NA,NA,NA,NA,NA,NA
+7859194100,pharmacy,NA,Modem Pharmacy Limited,NA,NA,NA,NA,NA
+7862532884,pharmacy,NA,Marygold Pharmacy,NA,NA,NA,NA,NA
+7869175836,pharmacy,NA,Mawuena Pharmacy,NA,NA,NA,NA,NA
+7869268402,pharmacy,NA,NA,NA,NA,NA,Ecowas Road,NA
+7869275633,pharmacy,NA,Double Plus,NA,NA,NA,Ecowas Road,NA
+7877561279,hospital,NA,Dawa CHPS compound,NA,NA,NA,NA,NA
+7881392996,pharmacy,pharmacy,Nesta Pharmacy,NA,NA,NA,NA,NA
+7881397955,pharmacy,pharmacy,Avenue Chemist,NA,NA,NA,NA,NA
+7883354585,pharmacy,NA,NA,NA,NA,NA,NA,NA
+7913715404,pharmacy,NA,Agnes Doris Pharmacy,NA,NA,NA,NA,NA
+7913757275,pharmacy,NA,Kissi Sarpong Pharmacy,NA,NA,NA,NA,NA
+7927557097,pharmacy,pharmacy,Danslob Pharmacy Limited,NA,NA,NA,NA,NA
+7931271385,hospital,NA,Tsibu Health Center,NA,NA,NA,NA,NA
+7933810163,pharmacy,NA,NA,NA,NA,NA,NA,NA
+7933833160,pharmacy,NA,Midpoint Pharmacy,NA,NA,NA,NA,NA
+7958938806,hospital,NA,Medifem Multi-Specialist Hospital & Fertility Centre,NA,NA,NA,NA,NA
+7973572335,pharmacy,NA,MEK Pharmacy Limited,NA,NA,NA,NA,NA
+8001394707,pharmacy,NA,Oguaaman Pharmacy,NA,NA,NA,NA,NA
+8003263177,pharmacy,NA,Colliers Pharmacy,NA,NA,NA,NA,NA
+8004079890,clinic,NA,Central Kasoa Clinic - Annex,NA,NA,NA,NA,NA
+8005716873,clinic,NA,Village of Hope Clinic,NA,NA,NA,NA,NA
+8006375662,pharmacy,pharmacy,Ernest Chemists,NA,NA,NA,NA,NA
+8006985111,hospital,NA,St. Gregory Catholic Hospital,NA,NA,NA,NA,NA
+8007051526,clinic,NA,Roman Trust Clinic,NA,NA,NA,NA,NA
+8015037289,pharmacy,NA,Richard Kokah Pharmacy,NA,NA,NA,Nana Brentu Road,NA
+8023237414,pharmacy,NA,NA,NA,NA,NA,NA,NA
+8032639993,clinic,NA,Moore Health Centre,NA,NA,NA,NA,NA
+8034197712,clinic,NA,Forever Homeopathic Clinic,NA,NA,NA,NA,NA
+8048887331,pharmacy,NA,Prince Obour Mintah Pharmacy,NA,NA,NA,Annor Assemah High Street,NA
+8048899892,pharmacy,NA,Rose Arthur Pharmacy,NA,NA,NA,Tanoku Avenue,NA
+8070168590,hospital,hospital,Citadel Hospital,NA,NA,NA,NA,NA
+8070159326,hospital,NA,Stanford Health,NA,NA,NA,NA,NA
+8070174468,pharmacy,pharmacy,Alex Tawiah Chemical Store,NA,NA,NA,NA,NA
+8070178813,pharmacy,NA,A & E Pharmacy,NA,NA,NA,NA,NA
+8070175973,pharmacy,NA,A & E Pharmacy,NA,NA,NA,NA,NA
+8071501404,hospital,hospital,Jubail Specialist Hospital,NA,NA,NA,NA,NA
+8071501405,pharmacy,pharmacy,Rosmond Pharmacy,NA,NA,NA,NA,NA
+8074392117,pharmacy,NA,NA,NA,NA,NA,NA,NA
+8077126981,clinic,NA,Atta Mills Clinic,NA,NA,NA,NA,NA
+8077139065,pharmacy,NA,S.A Abande Medical Store,NA,NA,NA,NA,NA
+8077140679,pharmacy,NA,MEG Pharmacy,NA,NA,NA,NA,NA
+8081791671,pharmacy,NA,Classfam Pharmacy,NA,NA,NA,NA,NA
+8086059307,pharmacy,NA,Union Square Pharmacy,NA,NA,NA,NA,NA
+8087598757,pharmacy,NA,Malakai Chemist,NA,NA,NA,NA,NA
+8094363594,pharmacy,NA,Mrs Rose Pharmacy,NA,NA,NA,NA,NA
+8103253117,clinic,NA,Denyase CHPS Compound,NA,NA,NA,NA,NA
+8109186410,pharmacy,NA,Augustine K.F. Allotey,NA,NA,NA,NA,NA
+8112000302,clinic,clinic,Marie Stopes,NA,NA,Mo-Fr 07:00-16:00; Sa 07:30-13:00; Su off; PH off,Homowo Ave,Accra
+8118538710,clinic,NA,Yonkofa Health Center,NA,NA,NA,NA,NA
+8142883219,pharmacy,NA,Alex K. Okwaisie Pharmarcy,NA,NA,NA,NA,NA
+8142883220,pharmacy,NA,Samuel Ntifful Pharmarcy,NA,NA,NA,NA,NA
+8142911215,pharmacy,NA,Phillis Oduro Sarah Pharmarcy,NA,NA,NA,NA,NA
+8142912456,pharmacy,NA,John B. Bawah,NA,NA,NA,NA,NA
+8172242763,NA,laboratory,NA,NA,NA,NA,NA,NA
+8172266644,pharmacy,NA,Pharmacy,NA,NA,NA,NA,NA
+8172267752,clinic,NA,Presbyterian Health Service Enchi,NA,NA,NA,D.C. Binney Road,NA
+8199137379,pharmacy,NA,Anthony Evans Nyankey,NA,NA,NA,NA,NA
+8201473920,pharmacy,NA,NA,NA,NA,NA,NA,NA
+8201474520,clinic,NA,NA,NA,NA,NA,NA,NA
+8202129317,clinic,NA,HOPE Health Center,NA,NA,NA,SSNIT Road voradep Road,NA
+8207694287,pharmacy,NA,Excora Pharmacy Limited,NA,NA,NA,Annor Assemah High Street,NA
+8219542117,clinic,NA,CCTU Clinic,NA,NA,NA,NA,NA
+8223753022,pharmacy,pharmacy,Habilat Pharmacy,NA,NA,NA,NA,NA
+8229510141,pharmacy,NA,Johnson Mensah Good Name,NA,NA,NA,NA,NA
+8230627640,pharmacy,pharmacy,Leeteng Pharmacy,NA,NA,NA,NA,NA
+8246313534,pharmacy,NA,NA,NA,NA,NA,NA,NA
+8246333074,clinic,NA,NA,NA,NA,NA,NA,NA
+8246649241,pharmacy,NA,NA,NA,NA,NA,NA,NA
+8279034723,hospital,hospital,New Tafo Government Hospital,Ministry Of Health,NA,NA,NA,NA
+8279192389,clinic,NA,Anomangye Specialist Hospital,NA,NA,NA,NA,NA
+8282194277,clinic,NA,Nsuta Polyclinic,government,NA,NA,NA,NA
+8307598131,pharmacy,pharmacy,Dong Steven Pharmacy,NA,NA,NA,NA,NA
+8346382200,pharmacy,NA,K-Lynks pharmacy,NA,NA,NA,NA,NA
+8354981755,pharmacy,NA,Ethical Pharmaceutical,NA,NA,NA,NA,NA
+8355047237,hospital,hospital,Donkorkrom Presbyterian Hospital,NA,NA,NA,NA,NA
+8370087740,clinic,NA,NA,NA,NA,NA,NA,NA
+8391471220,pharmacy,NA,Max-Health Pharmacy,NA,NA,Mo-Sa 07:30-22:00; Su 14:00-21:00,NA,NA
+8416626844,pharmacy,pharmacy,Agblor Pharmacy,NA,NA,Mo-Su 08:00-22:00,NA,NA
+8438553051,pharmacy,pharmacy,Christian Attuah Chemicals Shop,NA,NA,NA,NA,NA
+8499154369,hospital,NA,Afram Plains North District Helalth Directorate,NA,NA,NA,NA,NA
+8499239350,hospital,NA,Presbyterian Eye Clinic,NA,NA,NA,NA,NA
+8499250857,dentist,NA,Presbyterian Hosptal Dental Unit,NA,NA,NA,NA,NA
+8523253501,hospital,NA,Power House Hospital,NA,NA,NA,NA,NA
+8541483717,pharmacy,NA,1911 Drug Store,NA,NA,NA,NA,NA
+8541483917,pharmacy,NA,NA,NA,NA,NA,NA,NA
+8541545821,clinic,NA,CHIPS Compound,NA,NA,NA,NA,NA
+8542710917,pharmacy,NA,Stramark Pharmacy,NA,NA,NA,NA,NA
+8544159978,pharmacy,NA,NA,NA,NA,NA,NA,NA
+8544169870,pharmacy,NA,AdePharmacy,NA,NA,NA,NA,NA
+8564379322,clinic,yes,Shia Health Centre,NA,NA,NA,NA,NA
+8564403659,clinic,yes,Tanyigbe CHPS Compound,Ghana Health Service,NA,NA,NA,NA
+8566523856,hospital,hospital,Roseth community eye care,NA,NA,NA,NA,NA
+8567038917,pharmacy,NA,Franeva,NA,NA,NA,NA,NA
+8567046217,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+8571994317,pharmacy,NA,NexrCap,NA,NA,NA,NA,NA
+8572015717,pharmacy,NA,NA,NA,NA,NA,NA,NA
+8572227217,pharmacy,NA,Ernest Pharmacy,NA,NA,NA,NA,NA
+8572308017,pharmacy,NA,NA,NA,NA,NA,NA,NA
+8572607019,pharmacy,NA,NA,NA,NA,NA,NA,NA
+8572611717,pharmacy,NA,Herbal,NA,NA,NA,NA,NA
+8573183854,dentist,NA,Dental Unit,NA,NA,NA,NA,NA
+8575002761,clinic,yes,Holata CHPs Compound,NA,NA,NA,NA,NA
+8583156172,clinic,NA,Vane Health Centre,NA,NA,NA,NA,NA
+8583235285,clinic,NA,Ameco Clinic,NA,NA,NA,NA,NA
+8583240316,clinic,NA,St Francis Clinic,NA,NA,NA,NA,NA
+8583271258,clinic,NA,Saviefe Agorkpo R.C.H Clinic,NA,NA,NA,NA,NA
+8583277339,NA,alternative,Dzolopuita Health Centre,NA,NA,NA,NA,NA
+8592856359,hospital,nurse,Bodomase Clinic,Government of Ghana,NA,NA,NA,NA
+8598911517,hospital,NA,General Family Hospital,NA,NA,NA,Zenu,NA
+8602821218,pharmacy,NA,Kingsway Pharmacy,NA,NA,NA,NA,NA
+8605895900,clinic,NA,Kwamikrom Health Centre,NA,NA,NA,NA,NA
+8607515712,clinic,NA,Bodada Health Centre,NA,NA,NA,NA,NA
+8614141931,hospital,NA,Jasikan District Hospital,NA,NA,NA,NA,NA
+8620730719,hospital,NA,Oti Regional Hospital,NA,NA,NA,NA,NA
+8620744517,clinic,NA,Abotoase Health Centre,NA,NA,NA,NA,NA
+8620753774,clinic,yes,Kedjebi Health Centre,NA,NA,NA,NA,NA
+8620756500,clinic,NA,Katanga CHPs Compound,NA,NA,NA,NA,NA
+8620758545,clinic,NA,Asukawkaw Health Centre,NA,NA,NA,NA,NA
+8635391676,clinic,NA,Ahamasu Health Centre,NA,NA,NA,NA,NA
+8635722275,clinic,NA,Poase Cement Health Centre,NA,NA,NA,NA,NA
+8635723443,hospital,NA,St Marty Theresa Hospital,NA,NA,NA,NA,NA
+8635741605,clinic,NA,Pusupu Health Centre,NA,NA,NA,NA,NA
+8645208857,clinic,NA,Jumbo no 2 CHPs Compound,NA,NA,NA,NA,NA
+8645208858,clinic,NA,Bonakye CHPs Compound,NA,NA,NA,NA,NA
+8645210341,hospital,NA,St Mary Theresa Hospital,NA,NA,NA,NA,NA
+8645213645,clinic,NA,Hon Kofi Adjei Ntim Clinic,NA,NA,NA,NA,NA
+8645215644,clinic,NA,Kpongka Health Centre,NA,NA,NA,NA,NA
+8645225434,clinic,NA,Faith Maternity Clinic,NA,NA,NA,NA,NA
+8676945844,pharmacy,NA,Kingsway Pharmacy,NA,NA,NA,NA,NA
+8707722417,pharmacy,NA,Samsel,NA,NA,NA,NA,NA
+8708704008,pharmacy,NA,Bart Brown,NA,NA,NA,NA,NA
+8708737318,pharmacy,NA,Ervian Pharmacy,NA,NA,NA,NA,NA
+8718176396,clinic,NA,Classic Diagnostic & Medical Clinic,NA,NA,NA,NA,NA
+8764779751,hospital,NA,X-Ray,NA,NA,NA,NA,NA
+8770201743,clinic,NA,Moree Health Centre,NA,NA,NA,NA,NA
+8851393817,pharmacy,NA,NA,NA,NA,NA,NA,NA
+8868150633,clinic,NA,Adowa Boatemaa Memorial Clinic,NA,NA,NA,NA,NA
+8873554755,pharmacy,NA,MiniMax Pharmacy,NA,NA,NA,NA,NA
+8898883192,pharmacy,NA,Kaps Pharmacy,NA,NA,NA,NA,NA
+8900383610,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+8900383609,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+8901935412,hospital,NA,St Patrick Hospital,NA,NA,NA,NA,NA
+8909723941,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+8910220575,NA,laboratory,Raaj Specialist Scan,NA,NA,NA,NA,NA
+8916511637,clinic,clinic,Bomso Clinic,NA,NA,NA,NA,NA
+8917516454,hospital,NA,Dr Grace Momfi Eye Hospital,NA,NA,NA,NA,NA
+8919586054,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+8927743039,NA,laboratory,Baika Health Centre Laboratory,NA,NA,NA,NA,NA
+8929201613,pharmacy,NA,NA,NA,NA,NA,NA,NA
+8942194408,pharmacy,NA,Regiben Pharmacy,NA,NA,NA,NA,NA
+8946872399,hospital,NA,Likpe Bakua Polyclinic,NA,NA,NA,NA,NA
+8952061280,clinic,yes,"St. George Polyclinic, Liate",NA,NA,NA,NA,NA
+8953954351,clinic,NA,James Town Usher Clinic,NA,NA,NA,NA,NA
+8957046942,clinic,NA,Homeland Clinic,NA,NA,NA,NA,NA
+8957052844,pharmacy,NA,NA,NA,NA,NA,NA,NA
+8957055995,pharmacy,NA,NA,NA,NA,NA,NA,NA
+8976806587,hospital,NA,Atta Quarshie Merton Memorial Hospital,NA,NA,NA,NA,NA
+8986152599,hospital,NA,Sogakope Government Hospital,NA,NA,NA,NA,NA
+8996841594,pharmacy,NA,A.B. Chemist,NA,NA,NA,NA,NA
+9033427052,pharmacy,NA,Kings pharmacy,NA,NA,NA,NA,NA
+9033778534,clinic,clinic,Middle East Clinic,NA,NA,NA,NA,NA
+9036385276,pharmacy,NA,God is love Pharmacy,NA,NA,NA,NA,NA
+9039039190,pharmacy,NA,Pill Point Pharmacy,NA,NA,NA,NA,NA
+9041902863,pharmacy,pharmacy,ADD Pharma,NA,NA,NA,NA,NA
+9064977857,pharmacy,NA,Evanex Pharmacy,NA,NA,NA,NA,NA
+9083982209,clinic,alternative,Diamed Diagnostical and Treatment Center,NA,NA,NA,NA,NA
+1191436208,pharmacy,pharmacy,Worldview Pharmacy,NA,NA,NA,NA,NA
+9123049006,pharmacy,NA,Getaid Pharmarcy,NA,NA,NA,NA,NA
+9123339417,pharmacy,pharmacy,Prime,NA,NA,NA,NA,NA
+9127625140,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9132743817,pharmacy,NA,Outbox Pharmacy,NA,NA,NA,NA,NA
+9132744117,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9132744318,pharmacy,NA,MBC Pharmacy,NA,NA,NA,NA,NA
+9132743822,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9132743819,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9132743820,clinic,NA,Danfa Clinic,NA,NA,NA,NA,NA
+9139758117,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9147127398,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9150839718,pharmacy,NA,Charis Pharma,NA,NA,NA,NA,NA
+9153615070,pharmacy,NA,Otonya Pharmacy,NA,NA,Mo-Su 07:00-21:00,NA,NA
+9160879618,pharmacy,NA,Acts Pharmacy,NA,NA,NA,NA,NA
+9209889400,pharmacy,NA,NGPACK Pharmacy,NA,NA,NA,NA,NA
+9212652478,pharmacy,pharmacy,Madibra Pharmacy,NA,NA,NA,NA,NA
+9229859744,pharmacy,NA,Beanathan Pharmacy,NA,NA,Mo-Sa 08:00-22:00; Su 12:00-22:00,NA,NA
+9235979417,pharmacy,NA,HealthLane,NA,NA,NA,NA,NA
+9236170976,NA,laboratory,Gene Lab,NA,NA,NA,NA,NA
+9257885177,pharmacy,pharmacy,Xornam 360 Pharmacy LTD,Xornam 360 Pharmacy,NA,Mo-Sa 08:00-22:00; Su 09:00-21:00,NA,Ho
+9273013572,pharmacy,NA,GN Pharmacy,NA,NA,NA,NA,NA
+9332433917,pharmacy,NA,All Drugs Pharmacy,NA,NA,NA,NA,NA
+9341179817,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9341180418,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9341180517,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9351803221,pharmacy,NA,Asanco,NA,NA,NA,NA,NA
+9366656210,hospital,NA,Metro Health Hospital,NA,NA,24-Jul,NA,NA
+9368231190,pharmacy,NA,Ranstell Pharmacy,NA,NA,NA,NA,NA
+9400800440,pharmacy,NA,Atis Pharmacy,NA,NA,NA,NA,NA
+9403707435,pharmacy,yes,Puoku OTC,NA,NA,Mo-Su 07:00-21:00,NA,NA
+9458241717,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9461570717,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9469866678,hospital,NA,McHenly's Medical Centre,NA,NA,NA,NA,NA
+9489482983,NA,laboratory,Labs,NA,NA,NA,NA,NA
+9501813211,pharmacy,NA,Madibra Pharmacy,NA,NA,NA,NA,NA
+9501906850,hospital,NA,Star of Hope Hospital,NA,NA,NA,NA,NA
+9526954311,pharmacy,pharmacy,Cel Chemist,NA,NA,NA,NA,NA
+9592393312,pharmacy,NA,Senes Pharmacy,NA,NA,NA,NA,NA
+9592703774,pharmacy,NA,Lobing Pharmacy,NA,NA,NA,NA,NA
+9592741594,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9595225678,pharmacy,pharmacy,Rabille Pharmacy,NA,NA,NA,NA,NA
+9595320827,pharmacy,NA,Burma Camp Pharmacy,NA,NA,NA,NA,NA
+9596455588,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+9599082167,pharmacy,NA,Vicdoris Pharmacy,NA,NA,NA,NA,NA
+9602324796,pharmacy,NA,Eff-Ess Pharmacy,NA,NA,NA,NA,NA
+9602395871,pharmacy,pharmacy,Tobinco,NA,NA,NA,NA,NA
+9602396344,pharmacy,NA,Platinum P-Care,NA,NA,NA,NA,NA
+9602396228,pharmacy,NA,CA Pharmacy,NA,NA,NA,NA,NA
+9602407209,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9609526644,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9609535072,pharmacy,NA,Eddyamps Pharmacy,NA,NA,NA,NA,NA
+9609537376,pharmacy,NA,O'Nart Pharmacy,NA,NA,NA,NA,NA
+9609544143,pharmacy,NA,Bridging Pharmacy,NA,NA,NA,NA,NA
+9609552255,pharmacy,NA,Mgl,NA,NA,NA,NA,NA
+9609555746,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9646636717,clinic,NA,Geomond Eye Centre,NA,NA,NA,NA,NA
+9660303978,pharmacy,pharmacy,Joepharma Pharmacy,NA,NA,NA,NA,NA
+9664393652,hospital,NA,Redeemer Hospital,NA,NA,NA,NA,NA
+9664405319,clinic,NA,Dr. Forkuo Herbal Clinic,NA,NA,NA,NA,NA
+9669726589,pharmacy,NA,Getwell Pharmacy,NA,NA,NA,NA,NA
+9678357942,pharmacy,NA,Kam-Aid,NA,NA,NA,NA,Accra
+9679380617,pharmacy,NA,MediTab,NA,NA,NA,NA,NA
+9696568823,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9696571922,clinic,NA,NA,NA,NA,NA,NA,NA
+9701869862,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9701875239,pharmacy,NA,Goemat Pharmacy,NA,NA,NA,NA,NA
+9701894972,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9705120338,hospital,hospital,BECHEM GOVERNMENT HOSPITAL,NA,NA,NA,Sunyani Road,Bechem
+9738244761,pharmacy,NA,Select,NA,NA,NA,NA,NA
+9738271925,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9765873388,hospital,NA,Three Stone Hospital,NA,NA,NA,NA,NA
+9765881079,pharmacy,NA,T.M Pharmacy,NA,NA,NA,NA,NA
+9765902744,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9765912575,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9765912576,hospital,NA,NA,NA,NA,NA,NA,NA
+9765918910,hospital,NA,Frimpong Boateng Medical Center,NA,NA,NA,NA,NA
+9765933893,hospital,NA,Ahwiaso Community Hospital,NA,NA,NA,NA,NA
+9795356718,pharmacy,pharmacy,Unicom Pharmacy,NA,NA,NA,NA,NA
+9811784101,pharmacy,NA,Wilhelm Pharmacy,NA,NA,NA,NA,NA
+9825285017,clinic,NA,St. Lucy Eye Clinic,NA,NA,Mo-Fr 08:00-17:00; Sa 09:00-14:00,Nungua Ashaiman Road,NA
+9845769217,hospital,NA,Lebanon Community Hospital,NA,NA,24-Jul,NA,NA
+9847944517,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9848011317,pharmacy,NA,Over the Counter (Nurudeem Salamatu),NA,NA,NA,NA,NA
+9856076368,clinic,NA,Clinic,NA,NA,NA,NA,NA
+9895315827,pharmacy,pharmacy,OFOE'S PHARMANCY,NA,NA,NA,NA,NA
+9895395238,pharmacy,pharmacy,Pharmancy,NA,NA,NA,NA,NA
+9895395243,pharmacy,pharmacy,Pharmancy,NA,NA,NA,NA,NA
+9895395252,hospital,hospital,Akuse Government Hospital,NA,NA,NA,NA,NA
+9913042558,doctors,NA,Consulting Room,NA,NA,NA,NA,NA
+9913042560,clinic,NA,Eye Clinic,Wa Municipal Hospital,NA,NA,NA,NA
+9913042559,pharmacy,NA,Hospital Pharmacy,Wa Municipal Hospital,NA,NA,NA,NA
+9921291278,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9922896817,pharmacy,NA,Rabito Pharmacy,NA,NA,NA,Accra Kumasi Road,NA
+9923395862,NA,laboratory,Life Sciences Medical Centre,NA,NA,NA,NA,NA
+9925587817,clinic,NA,At Jude Clinic,NA,NA,NA,NA,NA
+9925605217,pharmacy,NA,Over the Counter,NA,NA,NA,NA,NA
+9925608517,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9929446917,pharmacy,NA,Benzu Pharmacy,NA,NA,NA,NA,NA
+9930507819,pharmacy,NA,Okofoni Pharmacy,NA,NA,NA,NA,NA
+9930521717,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9935260932,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9935260933,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9942010487,pharmacy,NA,Tobinco Pharmacy,NA,NA,NA,NA,NA
+9966511742,clinic,clinic,Nogokpo CHPS Compound,NA,NA,NA,NA,NA
+9983736618,pharmacy,NA,NA,NA,NA,NA,NA,NA
+1250323231,pharmacy,pharmacy,Jinlet Pharmacy,NA,NA,NA,NA,NA
+1251736937,pharmacy,NA,NA,NA,NA,NA,NA,NA
+1251736946,pharmacy,NA,Bedita Pharmacy Ltd.,NA,NA,NA,NA,NA
+1251736962,clinic,clinic,Chiropractic & Wellness Centres,NA,NA,NA,NA,NA
+1251736948,pharmacy,NA,Familycare Pharmacy,NA,NA,NA,NA,NA
+1251736965,pharmacy,NA,NA,NA,NA,NA,NA,NA
+9993853912,hospital,NA,Zion Praise Hospital,NA,NA,NA,NA,NA
+9993863978,pharmacy,NA,Priceline Pharmacy,NA,NA,NA,NA,NA
+9995774214,pharmacy,NA,Life Aid Pharmacy,NA,NA,NA,NA,NA
+10023084380,hospital,NA,Wassa Dunkwa Government Hospital,NA,NA,NA,NA,NA
+10023084505,pharmacy,NA,GeoRuth Pharmacy,NA,NA,NA,NA,NA
+10023100979,pharmacy,NA,NA,NA,NA,NA,NA,NA
+10023102192,pharmacy,NA,NA,NA,NA,NA,NA,NA
+10023131431,pharmacy,NA,NA,NA,NA,NA,NA,NA
+10035656333,hospital,hospital,Atasomanso hospital,NA,NA,NA,NA,NA
+10047649188,clinic,clinic,Komenda Health Center,government,NA,NA,NA,Komenda
+10069640822,pharmacy,pharmacy,MEDCOURT PHARMACY,AGYEMAN,NA,NA,Sunyani - Berekum Road,sunayni
+1270558809,doctors,NA,Sape Agbo Memorial Hospital,NA,NA,NA,NA,NA
+10035040421,clinic,clinic,Nkwankwaa Health Centre,Ghana Health Service,NA,NA,NA,NA
+11279878008,pharmacy,NA,NA,NA,NA,NA,NA,NA
+11279854939,pharmacy,NA,NA,NA,NA,NA,NA,NA
+11279850524,pharmacy,NA,NA,NA,NA,NA,NA,NA
+1314917857,doctors,doctor,Labone Clinic,NA,NA,NA,NA,NA
+11281141572,pharmacy,pharmacy,Biakoye,NA,advertisement on web,NA,NA,NA
+7128879152,clinic,NA,Amamorley Health Centre,NA,NA,NA,NA,NA
+1356937858,pharmacy,NA,Health Shop Mini Mart,NA,NA,NA,NA,NA
+1356937919,doctors,NA,St. Bernhard Eye Clinic,NA,NA,NA,NA,NA
+1364922558,pharmacy,pharmacy,Jinlet Pharmacy,NA,NA,NA,NA,NA
+1368374851,clinic,NA,Dua Clinic,NA,NA,NA,NA,NA
+1378720189,clinic,NA,Dohamm Clinic Limited,NA,NA,NA,NA,NA
+1385353948,doctors,doctor,Eye Link Clinic,NA,NA,NA,NA,NA
+1405374124,clinic,NA,Odorna Medical Center,NA,NA,24-Jul,Official Street,NA
+1417019958,doctors,NA,West African Rescue Association Head Office - WARA,NA,NA,NA,NA,NA
+11287527010,pharmacy,NA,Jaysbertha Pharmacy,NA,NA,NA,NA,NA
+11289878440,clinic,NA,Mac Hill Special Clinic,NA,NA,NA,NA,NA
+11290265326,pharmacy,NA,Rokdel,NA,NA,NA,NA,NA
+11292789630,pharmacy,NA,NA,NA,NA,NA,NA,NA
+11301392321,hospital,NA,NA,NA,NA,NA,NA,NA
+11328053369,pharmacy,NA,Panacea,NA,NA,NA,NA,NA
+5824861049,pharmacy,pharmacy,Unicom,NA,NA,NA,NA,NA
+11329489169,pharmacy,NA,"Rahma Pharmacy Limited, Yeji",NA,NA,Mo-Su 07:00-21:30,Gold street,NA
+11334779831,pharmacy,NA,NA,NA,NA,NA,NA,NA
+11336521099,pharmacy,pharmacy,Dosty pharmacy,NA,NA,07:00-22:00,NA,NA
+11348833136,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+11368862223,clinic,clinic,Buterisa CHIPS Compound,NA,NA,NA,NA,NA
+6032340907,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+3960377428,pharmacy,pharmacy,Theodore Semey Kwaku,NA,NA,NA,NA,NA
+11384240052,pharmacy,NA,Nadorg,NA,NA,NA,NA,NA
+11384651013,pharmacy,pharmacy,Al- Fridaws,NA,NA,NA,NA,NA
+10633801926,pharmacy,NA,MedAid Pharmacy,NA,NA,NA,NA,NA
+11396929200,pharmacy,pharmacy,O.K Honesty Pharmacy,NA,NA,NA,NA,NA
+11396996405,hospital,hospital,KNUST Hospital,NA,NA,NA,NA,NA
+11398273965,clinic,clinic,Victory Martenity/Clinic,NA,NA,NA,NA,NA
+11398278713,pharmacy,pharmacy,Fausvic Pharmacy (a mutti Pharmacy),NA,NA,NA,NA,NA
+11398484209,pharmacy,NA,NA,NA,NA,NA,NA,NA
+11398466380,pharmacy,pharmacy,Oakridge Pharmacy - Ayigya,NA,NA,NA,NA,NA
+11399968306,pharmacy,pharmacy,Vital Pharmacy,NA,NA,NA,NA,NA
+11400048516,hospital,hospital,King Medical Consult,NA,NA,NA,NA,NA
+11400065120,hospital,hospital,peace And love Hospital,NA,NA,NA,NA,NA
+11400059467,dentist,dentist,Aesthetic Edge Dental Clinic,NA,NA,NA,NA,NA
+11404156499,pharmacy,NA,CEK Pharmacy,NA,NA,NA,NA,NA
+11408642496,hospital,hospital,Ga North Municipal Hospital,NA,NA,NA,NA,NA
+8898883192,pharmacy,NA,Bubune Pharmacy,NA,NA,NA,NA,NA
+11415633024,hospital,NA,Speed Hospital,NA,NA,NA,NA,NA
+1914665868,NA,hospital,Buterisa CHIPS Compound,NA,"MVP,Columbia University",NA,NA,NA
+7837916785,pharmacy,NA,Firdaws Pharmacy Limited,NA,NA,NA,Kwashieman Ofankor Road,NA
+10235810501,hospital,hospital,Yizura Hospital,NA,NA,NA,NA,NA
+8142912456,pharmacy,pharmacy,John B. Bawah,NA,NA,NA,NA,NA
+7637963327,pharmacy,NA,Panacea Pharmacy,NA,NA,NA,NA,NA
+11445795963,pharmacy,NA,Krobea Pharmacy,NA,NA,24-Jul,NA,NA
+11467012129,hospital,hospital,Abomosu Clinic,NA,NA,NA,NA,NA
+11467012128,hospital,hospital,Abomosu Hospital,NA,NA,NA,NA,NA
+11478605919,pharmacy,NA,Fortress Pharmacy,NA,NA,NA,NA,NA
+1426161179,doctors,NA,OMNI Healthcare,NA,NA,NA,NA,NA
+4746491621,clinic,clinic,G.P.H.A Clinic Tema,NA,NA,NA,NA,NA
+6292744802,clinic,clinic,TMA Maternity and Children's Clinic,NA,NA,24-Jul,NA,NA
+6453274999,pharmacy,pharmacy,Almas Pharmacy,NA,NA,NA,NA,NA
+11554299569,doctors,NA,Vic Dank Health Centre,NA,NA,NA,NA,NA
+7606543531,pharmacy,pharmacy,Excora Pharmacy,NA,NA,Mo-Su 07:00-22:00,NA,NA
+11583885429,pharmacy,NA,Kojokrom Pharmacy Limited,NA,NA,Mo-Sa 08:00-22:00; Su 10:00-21:00,NA,NA
+6037962463,pharmacy,pharmacy,Adepharma Limited - Wholesale Only,NA,NA,NA,NA,NA
+3807057244,clinic,clinic,Topview Diagnostic Center,NA,NA,NA,NA,NA
+8544169870,pharmacy,pharmacy,AdePharmacy,NA,NA,NA,NA,NA
+5087711022,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+5087710549,pharmacy,pharmacy,Jeb Pharmacy,NA,NA,NA,NA,NA
+8986152599,hospital,hospital,Sogakope Government Hospital,NA,NA,NA,NA,NA
+11605780348,clinic,clinic,School Infirmary,NA,NA,NA,NA,NA
+11606205359,clinic,clinic,Ewim Health Clinic,NA,NA,NA,NA,NA
+7119985893,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+8645168477,clinic,centre,Obanda CHPS Compound,NA,NA,NA,NA,NA
+11627042567,pharmacy,NA,Jmvic Pharmacy,NA,NA,NA,NA,NA
+8645224486,clinic,clinic,Abubruwa CHPS Compound,NA,NA,NA,NA,NA
+8645208042,clinic,clinic,Asato-Wawaso CHPS Compound,NA,NA,NA,NA,NA
+8172268372,NA,optometrist,Eye Unit,NA,NA,NA,NA,NA
+7745167712,pharmacy,pharmacy,ATM Pharmacy,NA,NA,NA,NA,NA
+11662851610,dentist,dentist,Gengimed Dental Clinic,NA,NA,NA,NA,NA
+6464523586,pharmacy,NA,Success Pharmacy,Paul Antwi,NA,Mo-Su 07:00-10:00,Teiman-Abokobi Road,Accra
+1251736946,pharmacy,NA,Bedita Pharmacy Limited,NA,NA,NA,NA,NA
+4455802855,dentist,NA,Beaver Clinic Limited,NA,NA,NA,NA,NA
+6261963936,pharmacy,NA,Alive Pharmaceuticals (Wholesale),Alive Pharmaceuticals Ghana Limited,local knowledge,NA,Dansoman Road,NA
+6495045149,pharmacy,NA,Ernest Chemists,Ernest Chemists Limited,NA,NA,NA,NA
+6535358017,NA,laboratory,MDS- Lancet Laboratories,NA,NA,NA,NA,NA
+6535367088,NA,optometrist,Amasha Partners Ltd,NA,NA,NA,NA,NA
+10069640822,pharmacy,pharmacy,Medcourt Pharmacy,NA,NA,NA,Sunyani - Berekum Road,Sunyani
+9811784101,pharmacy,NA,Wilhelm Pharmacy,NA,NA,NA,NA,NA
+8957055909,pharmacy,pharmacy,Pharmaceuticals Ghana Limited,NA,NA,NA,NA,NA
+8957052844,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+9913042560,clinic,clinic,Eye Clinic,Wa Municipal Hospital,NA,NA,NA,NA
+9913042559,pharmacy,pharmacy,Hospital Pharmacy,Wa Municipal Hospital,NA,NA,NA,NA
+8667760640,clinic,clinic,Rabito Clinic,NA,NA,NA,NA,NA
+11361328455,pharmacy,pharmacy,Baseline Pharmacy,NA,NA,NA,NA,NA
+9913042558,doctors,doctor,Consulting Room,NA,NA,NA,NA,NA
+9123339417,pharmacy,pharmacy,Prime,NA,NA,NA,NA,NA
+11748974533,pharmacy,NA,Origin Chemist,NA,NA,NA,NA,NA
+11764719332,pharmacy,NA,Framim,NA,NA,NA,NA,NA
+11767342318,pharmacy,NA,NA,NA,NA,NA,NA,NA
+11768804570,pharmacy,NA,NA,NA,NA,NA,NA,NA
+11792815969,hospital,NA,MEDIMAFO Herbal Hope,NA,NA,NA,yehowa Da,NA
+11809886728,clinic,NA,Clinic,NA,NA,NA,NA,NA
+8614141931,hospital,hospital,Jasikan District Hospital,NA,NA,NA,NA,NA
+8635391676,clinic,clinic,Ahamasu Health Centre,NA,NA,NA,NA,NA
+8645225434,clinic,clinic,Faith Maternity Clinic,NA,NA,NA,NA,NA
+8635722275,clinic,clinic,Poase Cement Health Centre,NA,NA,NA,NA,NA
+6549350138,clinic,clinic,Foresight Medical Center,NA,NA,NA,NA,NA
+8583156172,clinic,clinic,Vane Health Centre,NA,NA,NA,NA,NA
+11097151722,hospital,hospital,Graceland Specialist Hospital,NA,NA,NA,NA,NA
+11401569432,pharmacy,pharmacy,SDG P-Mocent Pharmacy Ltd.,NA,NA,NA,NA,NA
+10241851457,clinic,NA,Twifo Praso Polyclinic,Ghana Health Service,NA,NA,NA,NA
+6573951078,pharmacy,pharmacy,Family Health Pharmacy,NA,NA,NA,NA,NA
+6532592717,pharmacy,pharmacy,Cape Coast Pharmacy,NA,NA,NA,NA,NA
+9609555746,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6512781822,pharmacy,pharmacy,Ave Maria Pharmacy,NA,NA,NA,NA,NA
+5781362108,pharmacy,pharmacy,Aseda Pharmaceuticals ltd,NA,NA,NA,NA,NA
+6610013524,pharmacy,pharmacy,N. O. Armah - Agyemang chemical store,NA,NA,NA,NA,NA
+784183691,pharmacy,pharmacy,NA,NA,NA,NA,NA,NA
+6665811256,pharmacy,pharmacy,James Bessa-Simons Pharmarcy,NA,NA,NA,NA,NA
+6573933182,dentist,dentist,Kad Dental Service,NA,NA,NA,NA,NA
+8032639993,clinic,clinic,Moore Health Centre,NA,NA,NA,NA,NA
+8602821218,pharmacy,pharmacy,Kingsway Pharmacy,NA,NA,NA,NA,NA
+8676945844,pharmacy,pharmacy,Kingsway Pharmacy,NA,NA,NA,NA,NA
+6532565401,pharmacy,pharmacy,Bucee Phamarcy,NA,NA,NA,NA,NA
+6573955391,clinic,clinic,Sanford clinic,NA,NA,NA,NA,NA
+8770201743,clinic,clinic,Moree Health Centre,NA,NA,NA,NA,NA
+8109186410,pharmacy,pharmacy,Augustine K.F. Allotey,NA,NA,NA,NA,NA
+6532592716,pharmacy,pharmacy,Sancotex Pharmacy,NA,NA,NA,NA,NA
+8087598757,pharmacy,pharmacy,Malakai Chemist,NA,NA,NA,NA,NA
+8001394707,pharmacy,pharmacy,Oguaaman Pharmacy,NA,NA,NA,NA,NA
+6521200239,pharmacy,pharmacy,Safe life Pharmacy,NA,NA,NA,NA,NA
+8081791671,pharmacy,pharmacy,Classfam Pharmacy,NA,NA,NA,NA,NA
+6532574094,pharmacy,pharmacy,Cape Coast Pharmacy,NA,NA,NA,NA,NA
+6532592715,pharmacy,pharmacy,Boakye Ansah Pharmacy,NA,NA,NA,NA,NA
