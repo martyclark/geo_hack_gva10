@@ -25,3 +25,5 @@ Average greenness estimated for 1990 located in the built-up area of epoch 1990;
 Average greenness estimated for 2000 located in the built-up area of epoch 2000;E_GR_AV00;
 Average greenness estimated for 2014 located in the built-up area of epoch 2014;E_GR_AV14;
 Maximum magnitude of the heatwaves;EX_HW_IDX;
+Name of the Urban Centre;UC_NM_MN;
+List of names;UC_NM_LST;
