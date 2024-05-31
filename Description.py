@@ -1,5 +1,7 @@
 import streamlit as st
 
+import data_helper
+
 # Set page layout to wide
 st.set_page_config(layout="wide")
 
