@@ -14,10 +14,12 @@ st.write("# Welcome to our Project! 👋")
 # Create two columns with the first one being twice as wide as the second
 col1, col2 = st.columns([2, 1])
 
-# Initialize city_map in session_state if it doesn't exist
-# if 'city_map' not in st.session_state:
-#     print("not in session state")
-#     st.session_state.city_map = folium.Map(location=[0, 0], zoom_start=5)
+if "center" not in st.session_state:
+    st.session_state["center"] = [39.949610, -75.150282]
+if "zoom" not in st.session_state:
+    st.session_state["zoom"] = 8
+if "markers" not in st.session_state:
+    st.session_state["markers"] = []
 
 global_map = folium.Map(location=[0, 0], zoom_start=5)
 btn_expand = st.button("display in second map")
@@ -44,10 +46,37 @@ with col2:
         st.write("Info object:", properties)
         city_data = data_helper.get_heat_map_by_city_name(properties["UC_NM_MN"].lower())
 
+    with st.echo(code_location="below"):
+        city_map = folium.Map(location=[0, 0], zoom_start=5)
+        fg = folium.FeatureGroup(name="Markers")
+        for marker in st.session_state["markers"]:
+            fg.add_child(marker)
 
-# with st.form(key="form_display_city_map"):
+        st_folium(
+            city_map,
+            center=st.session_state["center"],
+            zoom=st.session_state["zoom"],
+            key="new",
+            feature_group_to_add=fg,
+            height=400,
+            width=700,
+        )
+
+
 # city_map = folium.Map(location=[0, 0], zoom_start=5)
 if btn_expand:
+    random_marker = folium.Marker(
+        location=[5.621085071, -0.215586875],
+        popup=f"Random marker at [5.621085071, -0.215586875]",
+    )
+    st.session_state["markers"].append(random_marker)
+
+
+# with st.form(key="form_display_city_map"):
+#     fg = folium.FeatureGroup(name="Markers")
+#     for marker in st.session_state["markers"]:
+#         fg.add_child(marker)
+#     city_map_obj = st_folium(city_map, width=900, height=400)
     # marker = folium.Marker(
     #     location=[5.621085071, -0.215586875],
     #     popup=Popup("test", parse_html=False),
@@ -57,18 +86,18 @@ if btn_expand:
     #
     # city_map_obj = st_folium(st.session_state.city_map, width=900, height=400)
     # # st.session_state.city_map.render()
-    m = folium.Map(location=[5.621085071, -0.215586875], zoom_start=8)
-    fg = folium.FeatureGroup(name="Markers")
-    for marker in st.session_state["markers"]:
-        fg.add_child(marker)
-
-    st_folium(
-        m,
-        center=st.session_state["center"],
-        zoom=st.session_state["zoom"],
-        key="new",
-        feature_group_to_add=fg,
-        height=400,
-        width=700,
-    )
+    # m = folium.Map(location=[5.621085071, -0.215586875], zoom_start=8)
+    # fg = folium.FeatureGroup(name="Markers")
+    # for marker in st.session_state["markers"]:
+    #     fg.add_child(marker)
+    #
+    # st_folium(
+    #     m,
+    #     center=st.session_state["center"],
+    #     zoom=st.session_state["zoom"],
+    #     key="new",
+    #     feature_group_to_add=fg,
+    #     height=400,
+    #     width=700,
+    # )
 
