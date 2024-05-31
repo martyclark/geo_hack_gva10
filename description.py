@@ -14,10 +14,8 @@ st.write("# Welcome to our Project! 👋")
 # Create two columns with the first one being twice as wide as the second
 col1, col2 = st.columns([2, 1])
 
-if "center" not in st.session_state:
-    st.session_state["center"] = [39.949610, -75.150282]
 if "zoom" not in st.session_state:
-    st.session_state["zoom"] = 8
+    st.session_state["zoom"] = 5
 if "markers" not in st.session_state:
     st.session_state["markers"] = []
 
@@ -37,7 +35,19 @@ for f in data:
 with col1:
     # Render Folium map in Streamlit
     global_map_obj = st_folium(global_map, width=900, height=400)
+    city_map = folium.Map(location=[0, 0], zoom_start=8)
+    fg = folium.FeatureGroup(name="Markers")
+    for marker in st.session_state["markers"]:
+        fg.add_child(marker)
 
+    st_folium(
+        city_map,
+        zoom=st.session_state["zoom"],
+        key="new",
+        feature_group_to_add=fg,
+        height=400,
+        width=700,
+    )
 
 # Display the popup and tooltip information
 with col2:
@@ -45,59 +55,25 @@ with col2:
     if properties is not None:
         st.write("Info object:", properties)
         city_data = data_helper.get_heat_map_by_city_name(properties["UC_NM_MN"].lower())
+        if city_data is not None:
 
-    with st.echo(code_location="below"):
-        city_map = folium.Map(location=[0, 0], zoom_start=5)
-        fg = folium.FeatureGroup(name="Markers")
-        for marker in st.session_state["markers"]:
-            fg.add_child(marker)
+            for f in city_data:
+                folium.GeoJson(f).add_to(city_map)
+                marker = folium.GeoJson(f)
+                # print(marker.data["geometry"]["coordinates"])
+            #     lat, lon = marker.location
+                st.session_state["markers"].append(marker.add_to(city_map))
+            #     if lat < most_southwest[0] or (lat == most_southwest[0] and lon < most_southwest[1]):
+            #         most_southwest = marker.location
+            #
+            #     # Update the most northeast marker
+            #     if lat > most_northeast[0] or (lat == most_northeast[0] and lon > most_northeast[1]):
+            #         most_northeast = marker.location
+            # city_map.fit_bounds([most_southwest, most_northeast])
 
-        st_folium(
-            city_map,
-            center=st.session_state["center"],
-            zoom=st.session_state["zoom"],
-            key="new",
-            feature_group_to_add=fg,
-            height=400,
-            width=700,
-        )
-
-
-# city_map = folium.Map(location=[0, 0], zoom_start=5)
 if btn_expand:
     random_marker = folium.Marker(
         location=[5.621085071, -0.215586875],
         popup=f"Random marker at [5.621085071, -0.215586875]",
     )
     st.session_state["markers"].append(random_marker)
-
-
-# with st.form(key="form_display_city_map"):
-#     fg = folium.FeatureGroup(name="Markers")
-#     for marker in st.session_state["markers"]:
-#         fg.add_child(marker)
-#     city_map_obj = st_folium(city_map, width=900, height=400)
-    # marker = folium.Marker(
-    #     location=[5.621085071, -0.215586875],
-    #     popup=Popup("test", parse_html=False),
-    #     tooltip="Tooltip!"
-    # )
-    # marker.add_to(st.session_state.city_map)
-    #
-    # city_map_obj = st_folium(st.session_state.city_map, width=900, height=400)
-    # # st.session_state.city_map.render()
-    # m = folium.Map(location=[5.621085071, -0.215586875], zoom_start=8)
-    # fg = folium.FeatureGroup(name="Markers")
-    # for marker in st.session_state["markers"]:
-    #     fg.add_child(marker)
-    #
-    # st_folium(
-    #     m,
-    #     center=st.session_state["center"],
-    #     zoom=st.session_state["zoom"],
-    #     key="new",
-    #     feature_group_to_add=fg,
-    #     height=400,
-    #     width=700,
-    # )
-
