@@ -1,14 +1,19 @@
 import streamlit as st
 
+# Set page layout to wide
+st.set_page_config(layout="wide")
+
 st.write("# Welcome to our Project! 👋")
 
-st.sidebar.success("Placeholder text")
+# Create two columns with the first one being twice as wide as the second
+col1, col2 = st.columns([2,1])
 
-st.markdown(
+# Add a map to the first column
+col1.map()
+
+# Add text to the second column
+col2.markdown(
     """
-    This is a simple example of a Streamlit app that shows a collection of data.
+    Placeholder text for overall info / info about specific country
     """
 )
-
-# Add an empty map
-st.map()
