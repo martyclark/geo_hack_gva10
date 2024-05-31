@@ -13,4 +13,4 @@ def load_data_and_labels():
     with open(deta_file, 'r') as f:
         data = json.load(f)
 
-    return data
+    return data['features']

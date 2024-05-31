@@ -1,7 +1,11 @@
+from streamlit_folium import st_folium
+from folium import Popup
 import folium
 import streamlit as st
 
 import data_helper
+
+data = data_helper.load_data_and_labels()
 
 # Set page layout to wide
 st.set_page_config(layout="wide")
@@ -21,15 +25,15 @@ col2.markdown(
     """
 )
 
-
-from streamlit_folium import st_folium
-from folium import Popup
-
 # center on Liberty Bell, add marker
-m = folium.Map(location=[39.949610, -75.150282], zoom_start=16)
-folium.Marker(
-    [39.949610, -75.150282], popup="Liberty Bell", tooltip="Liberty Bell"
-).add_to(m)
+m = folium.Map(location=[0, 0], zoom_start=5)
+
+for f in data:
+    folium.Marker(
+        location=f['geometry']['coordinates'][::-1],
+        popup=Popup("Popup!", parse_html=False),
+        tooltip="Tooltip!",
+    ).add_to(m)
 
 # call to render Folium map in Streamlit
 st_data = st_folium(m, width=725)
