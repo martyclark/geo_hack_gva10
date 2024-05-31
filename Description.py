@@ -29,7 +29,7 @@ for f in data:
 # Add a button to the right column
 with col1:
     # Render Folium map in Streamlit
-    out = st_folium(m, width=700, height=400)
+    out = st_folium(m, width=900, height=400)
 
 
 # Display the popup and tooltip information
