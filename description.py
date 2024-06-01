@@ -140,8 +140,8 @@ with (col2):
                 style_function = create_style_function(fill_color=fillColorProperties, border_color=color)
                 marker = folium.GeoJson(
                     f,
-                    popup=folium.features.GeoJsonPopup(fields=["_median", "_median_2", "_median_3"],
-                                                       aliases=["Median", "Median_2", "Median_3"],
+                    popup=folium.features.GeoJsonPopup(fields=["Name", "_median", "_median_2", "_median_3"],
+                                                       aliases=["Name", "Median", "Median_2", "Median_3"],
                                                        labels=True),
                     style_function=style_function
                 )
