@@ -51,9 +51,23 @@ with col1:
 
 # Display the popup and tooltip information
 with col2:
+    col3, col4,col5 = st.columns(3)
     properties = data_helper.get_data_by_id(data, global_map_obj["last_object_clicked_popup"])
     if properties is not None:
-        st.write("Info object:", properties)
+        with col3:
+            st.write("Country name:", properties["CTR_MN_NM"])
+            st.write("City name:", properties["UC_NM_MN"])
+            st.metric ("Area", properties["AREA"])  # Corrected line
+            st.metric("Total area of Urban Centres in 2000:", properties["H00_AREA"])
+            st.metric("Average temperature for epoch 2014:", round(properties["E_WR_T_14"], 1))
+        with col4:
+            st.metric("Total built-up area in 2015:", round(properties["B15"],0))
+            st.write("Total resident population in 2015:", properties["P15"])
+            st.write("Sum of GDP PPP values for year 2015:", properties["GDP15_SM"])
+
+        with col5: 
+            st.write("Average greenness estimated for 2014 located in the built-up area of epoch 2014:", properties["E_GR_AV14"])
+            st.write("Maximum magnitude of the heatwaves", properties["EX_HW_IDX"])
         city_data = data_helper.get_heat_map_by_city_name(properties["UC_NM_MN"].lower())
         if city_data is not None:
 
