@@ -26,7 +26,6 @@ if "markers" not in st.session_state:
     st.session_state["markers"] = []
 
 global_map = folium.Map(location=[0, 0], zoom_start=5)
-btn_expand = st.button("display in second map")
 
 for f in data:
     facility_id = str(f["properties"]["ID_HDC_G0"])
