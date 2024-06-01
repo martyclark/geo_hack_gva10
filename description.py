@@ -3,10 +3,28 @@ import folium
 from folium import Popup
 from streamlit_folium import st_folium
 import data_helper
+import random
 
 data = data_helper.load_global_data_and_labels()
 
 st.set_page_config(layout="wide")
+
+
+def get_random_color():
+    r = random.randrange(0, 256)
+    g = random.randrange(0, 256)
+    b = random.randrange(0, 256)
+    return '#{:02x}{:02x}{:02x}'.format(r,g,b)
+
+
+def create_style_function(color):
+    def style_function(feature):
+        return {
+            'fillColor': color,
+            'color': None  # Hide the border
+        }
+    return style_function
+
 
 col6, col7,col8 = st.columns([1,5,1])
 col6.write("")
@@ -94,7 +112,12 @@ with col2:
         city_data = data_helper.get_heat_map_by_city_name(properties["UC_NM_MN"].lower())
         if city_data is not None:
             for f in city_data:
-                marker = folium.GeoJson(f)
+                color = get_random_color()
+                style_function = create_style_function(color)
+                marker = folium.GeoJson(
+                    f,
+                    style_function=style_function
+                )
                 st.session_state["markers"].append(marker.add_to(city_map))
 
 
