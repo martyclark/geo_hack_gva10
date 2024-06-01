@@ -8,6 +8,16 @@ data = data_helper.load_global_data_and_labels()
 
 st.set_page_config(layout="wide")
 
+col6, col7,col8 = st.columns([1,5,1])
+col6.write("")
+with col7:
+    st.title("Global Heat Resilience Service")
+    st.divider()
+    st.write("Cities worldwide face the critical challenge of understanding and addressing localized extreme heat risks, a top climate change concern. The Global Heat Resilience Service is designed to empower urban decision-makers with the comprehensive data needed to prioritize and tackle this issue effectively. Our platform seamlessly integrates existing open global data, providing detailed neighborhood-level insights into heat vulnerability. It captures key factors such as demographics, socio-economic status, and access to essential services, which traditional methods often overlook. With our user-friendly interface, information that was once inaccessible and fragmented is now consolidated and easily navigable. The Global Heat Resilience Service offers a robust combination of hazard, exposure, and vulnerability data, enabling users to assess heat vulnerability under both current and future climatic conditions. Our clear maps and data visualizations highlight the location and number of people exposed and vulnerable, detailing impacts on health, economic losses, and more. By presenting these insights in an accessible format, the Global Heat Resilience Service supports cities in making informed decisions and implementing effective strategies to protect their communities from the growing threat of extreme heat. Join us in building more resilient urban environments and safeguarding the well-being of residents worldwide.")
+col8.write("")
+st.divider()
+
+
 col1, col2 = st.columns([2, 1])
 
 if "zoom" not in st.session_state:
@@ -75,3 +85,70 @@ with col2:
             for f in city_data:
                 marker = folium.GeoJson(f)
                 st.session_state["markers"].append(marker.add_to(city_map))
+
+
+st.divider()
+st.header("Current temeprature data")
+st.divider()
+st.header("Heat map")
+st.write(''' The heat map visually represents the distribution of extreme heat within the city, highlighting areas with varying temperature intensities. Warmer colors, such as red and orange, indicate higher temperatures and greater heat risk, while cooler colors, such as blue and green, represent lower temperatures and lesser risk.''')
+st.subheader("How to Interpret the Heat Map:")
+st.subheader("High-Risk Areas")
+st.write("Look for regions shaded in red or dark orange, which signify zones with the highest temperatures and potential heat-related impacts.")
+st.subheader("Moderate-Risk Areas")
+st.write("Yellow and light orange areas indicate moderate temperatures and a need for some heat mitigation measures.")
+st.subheader("Low-Risk Areas")
+st.write("Green and blue regions denote cooler areas with lower heat risk.")
+st.divider()
+
+st.header("Historical data")
+
+st.write('''The Historical Temperature Data section provides an in-depth analysis of past temperature trends within the city. This section includes comprehensive data on daily, monthly, and annual temperature variations over the past several decades. By examining historical temperature records, users can identify long-term trends, such as increasing average temperatures, the frequency and intensity of heatwaves, and seasonal patterns.''')  
+st.subheader("Key Features")
+
+st.write('''Temperature Trends: Visual graphs and charts showing how temperatures have changed over time.
+Heatwave Analysis: Data on the occurrence, duration, and severity of past heatwaves.
+Seasonal Patterns: Insights into temperature fluctuations across different seasons, highlighting periods of extreme heat.
+Comparison with Averages: Comparisons of historical temperatures with long-term climate averages to identify anomalies and significant changes.''')
+
+st.subheader("How to Use This Section")
+
+st.write('''Users can leverage the historical temperature data to:
+
+Understand Long-Term Changes: Gain insights into how the city's climate has evolved, helping to predict future trends.
+Inform Planning and Policy: Use historical data to support urban planning decisions and the development of heat mitigation strategies.
+Raise Awareness: Educate the community and stakeholders about historical temperature patterns and their implications for future heat resilience.''')
+
+st.divider()
+
+st.markdown(''' © 2024 Global Heat Resilience Service. All Rights Reserved. For more information, please contact us at:
+
+Email: heatresilience@geosec.org 
+Phone: +41 22 730 8251
+
+Visit our main website: Earth Observations''')
+
+col9, col10 = st.columns([1,1])
+
+with col9:
+    st.write('''
+Useful Links:
+
+    Privacy Policy
+    Terms of Service
+    Help & Support
+    About Us
+    Data Sources
+    Partners
+''')
+    
+with col10:
+    st.write('''
+Follow Us:
+
+    Facebook
+    Twitter
+    LinkedIn: https://www.linkedin.com/company/group-on-earth-observations/ 
+''')
+
+st.markdown("Global Heat Resilience Service is part of the Group on Earth Observations (GEO) community, dedicated to fostering global collaboration for a sustainable planet.")
