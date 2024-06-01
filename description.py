@@ -41,10 +41,10 @@ with col1:
     st_folium(
         city_map,
         zoom=st.session_state["zoom"],
-        key="new",
+        key="city_map",
         feature_group_to_add=fg,
         height=400,
-        width=700,
+        width=900,
     )
 
 with col2:
