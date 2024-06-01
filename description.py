@@ -111,7 +111,10 @@ with col2:
         city_data = data_helper.get_heat_map_by_city_name(properties["UC_NM_MN"].lower())
         if city_data is not None:
             for f in city_data:
-                color = get_random_color()
+                if "colRange_2020" in f["properties"]:
+                    color = f["properties"]["colRange_2020"]
+                else:
+                    color = get_random_color()
                 style_function = create_style_function(color)
                 marker = folium.GeoJson(
                     f,
