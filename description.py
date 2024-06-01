@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 import folium
 from folium import Popup
 from streamlit_folium import st_folium
@@ -118,7 +119,9 @@ with col2:
                 )
                 st.session_state["markers"].append(marker.add_to(city_map))
 
-
+with st.expander("Further information about the data"):
+    components.iframe('https://geo-dev-hub.maps.arcgis.com/apps/mapviewer/index.html?webmap=4c17c5dd3cba457e80e6c546bc73a3b1', height=500)
+    
 st.divider()
 st.header("Current temeprature data")
 st.divider()
