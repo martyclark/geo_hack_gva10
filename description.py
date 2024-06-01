@@ -141,11 +141,14 @@ with (col2):
                 marker = folium.GeoJson(
                     f,
                     popup=folium.features.GeoJsonPopup(fields=["Name", "_median", "_median_2", "_median_3"],
-                                                       aliases=["Name", "Median", "Median_2", "Median_3"],
+                                                       aliases=[
+                                                       '<p style="font-size:9px;">Name</p>',
+                                                       '<p style="font-size:9px;">Year 2020</p>',
+                                                       '<p style="font-size:9px;">Year 2030</p>',
+                                                       '<p style="font-size:9px;">Year 2050</p>'],
                                                        labels=True),
                     style_function=style_function
                 )
-                # fields = ["_median", "_median_2", "_median_3"])
                 marker.add_to(city_map)
                 st.session_state["markers_2020"].append(marker)
                 # # 2030
