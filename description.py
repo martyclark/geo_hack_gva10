@@ -51,8 +51,12 @@ col1, col2 = st.columns([2, 1])
 
 if "zoom" not in st.session_state:
     st.session_state["zoom"] = 5
-if "markers" not in st.session_state:
-    st.session_state["markers"] = []
+if "markers_2020" not in st.session_state:
+    st.session_state["markers_2020"] = []
+if "markers_2030" not in st.session_state:
+    st.session_state["markers_2030"] = []
+if "markers_2050" not in st.session_state:
+    st.session_state["markers_2050"] = []
 
 global_map = folium.Map(location=[0, 0], zoom_start=5)
 
@@ -68,9 +72,18 @@ for f in data:
 with col1:
     global_map_obj = st_folium(global_map, width=900, height=400)
     city_map = folium.Map(location=[0, 0], zoom_start=8, min_zoom=3, max_zoom=10)
-    fg = folium.FeatureGroup(name="Markers")
-    for marker in st.session_state["markers"]:
-        fg.add_child(marker)
+    fg_2020 = folium.FeatureGroup(name="2020", overlay=True, show=True)
+    # fg_2030 = folium.FeatureGroup(name="2030", overlay=True, show=False)
+    # fg_2050 = folium.FeatureGroup(name="2050", overlay=True, show=False)
+    # fg = folium.FeatureGroup(name="Markers")
+    for marker in st.session_state["markers_2020"]:
+        fg_2020.add_child(marker)
+    # for marker in st.session_state["markers_2030"]:
+    #     fg_2030.add_child(marker)
+    # for marker in st.session_state["markers_2050"]:
+    #     fg_2050.add_child(marker)
+    # folium.TileLayer('openstreetmap', overlay=False, name="years").add_to(city_map)
+    # folium.LayerControl().add_to(city_map)
 
  # Update zoom level and center location when a marker is clicked
     if global_map_obj["last_object_clicked_popup"] is not None:
@@ -82,17 +95,18 @@ with col1:
     city_map_obj = st_folium(
         city_map,
         key="city_map",
-        feature_group_to_add=fg,
+        feature_group_to_add=[fg_2020],
         height=400,
         width=900,
     )
+
 
 with (col2):
     col3, col4, col5 = st.columns(3)
     properties = data_helper.get_data_by_id(data, global_map_obj["last_object_clicked_popup"])
     heat_map_properties = data_helper.get_data_by_id(data, city_map_obj["last_object_clicked_popup"])
     if properties is not None:
-        st.session_state["markers"] = []
+        st.session_state["markers_2020"] = []
         with col3:
             st.metric("Country name", properties["CTR_MN_NM"])
             st.write("Total area of Urban Centres in 2000:")
@@ -113,6 +127,7 @@ with (col2):
         city_data = data_helper.get_heat_map_by_city_name(properties["UC_NM_MN"].lower())
         if city_data is not None:
             for f in city_data:
+                # 2020
                 if "colRange_2020" in f["properties"]:
                     if f["properties"]["colRange_2020"] is not None:
                         fillColorProperties = f["properties"]["colRange_2020"]
@@ -123,14 +138,52 @@ with (col2):
                 else:
                     color = get_random_color()
                 style_function = create_style_function(fill_color=fillColorProperties, border_color=color)
-                # heat_map_polygon_id = str(f["properties"]["id"])
-                # p = GeoJsonPopup([heat_map_polygon_id]),
                 marker = folium.GeoJson(
                     f,
-                    # popup=p,
+                    popup=folium.features.GeoJsonPopup(fields=["_median", "_median_2", "_median_3"],
+                                                       aliases=["Median", "Median_2", "Median_3"],
+                                                       labels=True),
                     style_function=style_function
                 )
-                st.session_state["markers"].append(marker.add_to(city_map))
+                # fields = ["_median", "_median_2", "_median_3"])
+                marker.add_to(city_map)
+                st.session_state["markers_2020"].append(marker)
+                # # 2030
+                # if "colRange_2030" in f["properties"]:
+                #     if f["properties"]["colRange_2030"] is not None:
+                #         fillColorProperties = f["properties"]["colRange_2030"]
+                #         color = "#000000"
+                #     else:
+                #         fillColorProperties = None
+                #         color = 'rgba(0, 0, 0, 0)'
+                # else:
+                #     color = get_random_color()
+                # style_function = create_style_function(fill_color=fillColorProperties, border_color=color)
+                # marker = folium.GeoJson(
+                #     f,
+                #     popup=folium.features.GeoJsonPopup(fields=["_median", "_median_2", "_median_3"]),
+                #     style_function=style_function
+                # )
+                # marker.add_to(city_map)
+                # st.session_state["markers_2030"].append(marker)
+                # # 2050
+                # if "colRange_2050" in f["properties"]:
+                #     if f["properties"]["colRange_2050"] is not None:
+                #         fillColorProperties = f["properties"]["colRange_2050"]
+                #         color = "#000000"
+                #     else:
+                #         fillColorProperties = None
+                #         color = 'rgba(0, 0, 0, 0)'
+                # else:
+                #     color = get_random_color()
+                # style_function = create_style_function(fill_color=fillColorProperties, border_color=color)
+                # marker = folium.GeoJson(
+                #     f,
+                #     popup=folium.features.GeoJsonPopup(fields=["_median", "_median_2", "_median_3"]),
+                #     style_function=style_function
+                # )
+                # marker.add_to(city_map)
+                # st.session_state["markers_2050"].append(marker)
 
 with open(os.path.join("data", "Rome Urban Heat Resilience Profile.pdf"), "rb") as file:
     btn = st.download_button(label ="Download data", data = file, file_name = "Rome Urban Heat Resilience Profile.pdf", mime = "application/pdf")
