@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 import folium
-from folium import Popup
+from folium import Popup, GeoJsonPopup
 from streamlit_folium import st_folium
 import data_helper
 import random
@@ -73,16 +73,12 @@ with col1:
 
  # Update zoom level and center location when a marker is clicked
     if global_map_obj["last_object_clicked_popup"] is not None:
-        st.session_state["zoom"] = 8  # or any other zoom level you prefer
-        # Get the coordinates of the clicked marker
         clicked_marker = data_helper.get_data_by_id(data, global_map_obj["last_object_clicked_popup"])
         if clicked_marker is not None:
-            # Combine latitude and longitude into a list
             location = [clicked_marker['GCPNT_LAT'], clicked_marker['GCPNT_LON']]
-            # city_map = folium.Map(location=location, zoom_start=st.session_state["zoom"], min_zoom=3, max_zoom=10)
             city_map.fit_bounds([location, location], max_zoom=10)
 
-    st_folium(
+    city_map_obj = st_folium(
         city_map,
         key="city_map",
         feature_group_to_add=fg,
@@ -93,6 +89,7 @@ with col1:
 with (col2):
     col3, col4, col5 = st.columns(3)
     properties = data_helper.get_data_by_id(data, global_map_obj["last_object_clicked_popup"])
+    heat_map_properties = data_helper.get_data_by_id(data, city_map_obj["last_object_clicked_popup"])
     if properties is not None:
         st.session_state["markers"] = []
         with col3:
@@ -125,8 +122,11 @@ with (col2):
                 else:
                     color = get_random_color()
                 style_function = create_style_function(fill_color=fillColorProperties, border_color=color)
+                # heat_map_polygon_id = str(f["properties"]["id"])
+                # p = GeoJsonPopup([heat_map_polygon_id]),
                 marker = folium.GeoJson(
                     f,
+                    # popup=p,
                     style_function=style_function
                 )
                 st.session_state["markers"].append(marker.add_to(city_map))

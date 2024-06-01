@@ -35,3 +35,4 @@ def get_data_by_id(data, facility_id):
         if str(f["properties"]["ID_HDC_G0"]) == facility_id:
             return f["properties"]
     return None
+
