@@ -43,6 +43,18 @@ with col1:
     for marker in st.session_state["markers"]:
         fg.add_child(marker)
 
+ # Update zoom level and center location when a marker is clicked
+    if global_map_obj["last_object_clicked_popup"] is not None:
+        st.session_state["zoom"] = 7  # or any other zoom level you prefer
+        # Get the coordinates of the clicked marker
+        clicked_marker = data_helper.get_data_by_id(data, global_map_obj["last_object_clicked_popup"])
+        if clicked_marker is not None:
+            # Combine latitude and longitude into a list
+            location = [clicked_marker['GCPNT_LAT'], clicked_marker['GCPNT_LON']]
+            # Update the center location of the city map
+            city_map = folium.Map(location=location, zoom_start=st.session_state["zoom"])
+
+
     st_folium(
         city_map,
         zoom=st.session_state["zoom"],
