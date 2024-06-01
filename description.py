@@ -8,7 +8,7 @@ import random
 
 data = data_helper.load_global_data_and_labels()
 
-MAP_EMOJI_URL = "./logo.png"
+MAP_EMOJI_URL = "./Logo.png"
 
 st.set_page_config(
     page_title="Global Heat Resilience Service", 
