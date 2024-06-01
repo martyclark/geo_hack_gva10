@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import streamlit.components.v1 as components
 import folium
@@ -131,7 +132,7 @@ with (col2):
                 )
                 st.session_state["markers"].append(marker.add_to(city_map))
 
-with open("data\Rome Urban Heat Resilience Profile.pdf", "rb") as file:
+with open(os.path.join("data", "Rome Urban Heat Resilience Profile.pdf"), "rb") as file:
     btn = st.download_button(label ="Download data", data = file, file_name = "Rome Urban Heat Resilience Profile.pdf", mime = "application/pdf")
 
 st.divider()
