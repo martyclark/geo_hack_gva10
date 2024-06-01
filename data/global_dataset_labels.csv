@@ -1,0 +1,29 @@
+﻿label;column;measure
+Area;AREA;
+Geometric Centroid (WGS 84) LAT;GCPNT_LAT,
+Geometric Centroid (WGS 84) LON;GCPNT_LON,
+Main Country Identification: name;CTR_MN_NM;
+Main Country Identification: ISO 3;CTR_MN_ISO;
+Total area of Urban Centres in 1975;H75_AREA;sq km
+Total area of Urban Centres in 1990;H90_AREA;sq km
+Total area of Urban Centres in 2000;H00_AREA;sq km
+Average temperature for epoch 1990;E_WR_T_90;C
+Average temperature for epoch 2000;E_WR_T_00;C
+Average temperature for epoch 2014;E_WR_T_14;C
+Total built-up area in 1975;B75;sq km
+Total built-up area in 1990;B90;sq km
+Total built-up area in 2000;B00;sq km
+Total built-up area in 2015;B15;sq km
+Total resident population in 1975;P75;
+Total resident population in 1990;P90;
+Total resident population in 2000;P00;
+Total resident population in 2015;P15;
+Sum of GDP PPP values for year 1990;GDP90_SM;USD
+Sum of GDP PPP values for year 2000;GDP00_SM;UDS
+Sum of GDP PPP values for year 2015;GDP15_SM;USD
+Average greenness estimated for 1990 located in the built-up area of epoch 1990;E_GR_AV90;
+Average greenness estimated for 2000 located in the built-up area of epoch 2000;E_GR_AV00;
+Average greenness estimated for 2014 located in the built-up area of epoch 2014;E_GR_AV14;
+Maximum magnitude of the heatwaves;EX_HW_IDX;
+Name of the Urban Centre;UC_NM_MN;
+List of names;UC_NM_LST;
