@@ -142,7 +142,7 @@ with (col2):
                     f,
                     popup=folium.features.GeoJsonPopup(fields=["Name", "_median", "_median_2", "_median_3"],
                                                        aliases=[
-                                                       '<p style="font-size:9px;">Name</p>',
+                                                       '<p style="font-size:12px;">Name</p>',
                                                        '<p style="font-size:9px;">Year 2020</p>',
                                                        '<p style="font-size:9px;">Year 2030</p>',
                                                        '<p style="font-size:9px;">Year 2050</p>'],
@@ -187,7 +187,8 @@ with (col2):
                 # )
                 # marker.add_to(city_map)
                 # st.session_state["markers_2050"].append(marker)
-
+        properties = city_map_obj["last_object_clicked_popup"]
+        st.write(properties)
 with open(os.path.join("data", "Rome Urban Heat Resilience Profile.pdf"), "rb") as file:
     btn = st.download_button(label ="Download data", data = file, file_name = "Rome Urban Heat Resilience Profile.pdf", mime = "application/pdf")
 
