@@ -31,9 +31,7 @@ for f in data:
     )
     marker.add_to(global_map)
 
-# Add a button to the right column
 with col1:
-    # Render Folium map in Streamlit
     global_map_obj = st_folium(global_map, width=900, height=400)
     city_map = folium.Map(location=[0, 0], zoom_start=8)
     fg = folium.FeatureGroup(name="Markers")
@@ -49,11 +47,11 @@ with col1:
         width=700,
     )
 
-# Display the popup and tooltip information
 with col2:
-    col3, col4,col5 = st.columns(3)
+    col3, col4, col5 = st.columns(3)
     properties = data_helper.get_data_by_id(data, global_map_obj["last_object_clicked_popup"])
     if properties is not None:
+        st.session_state["markers"] = []
         with col3:
             st.subheader("Country name:")
             st.subheader(properties["CTR_MN_NM"])
@@ -78,24 +76,6 @@ with col2:
             st.write("Maximum magnitude of the heatwaves", properties["EX_HW_IDX"])
         city_data = data_helper.get_heat_map_by_city_name(properties["UC_NM_MN"].lower())
         if city_data is not None:
-
             for f in city_data:
-                folium.GeoJson(f).add_to(city_map)
                 marker = folium.GeoJson(f)
-                # print(marker.data["geometry"]["coordinates"])
-            #     lat, lon = marker.location
                 st.session_state["markers"].append(marker.add_to(city_map))
-            #     if lat < most_southwest[0] or (lat == most_southwest[0] and lon < most_southwest[1]):
-            #         most_southwest = marker.location
-            #
-            #     # Update the most northeast marker
-            #     if lat > most_northeast[0] or (lat == most_northeast[0] and lon > most_northeast[1]):
-            #         most_northeast = marker.location
-            # city_map.fit_bounds([most_southwest, most_northeast])
-
-if btn_expand:
-    random_marker = folium.Marker(
-        location=[5.621085071, -0.215586875],
-        popup=f"Random marker at [5.621085071, -0.215586875]",
-    )
-    st.session_state["markers"].append(random_marker)
