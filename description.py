@@ -121,10 +121,13 @@ with col2:
                 )
                 st.session_state["markers"].append(marker.add_to(city_map))
 
+with open("123.pdf", "rb") as file:
+    btn = st.download_button(label ="Download data", data = file, file_name = "123.pdf", mime = "application/pdf")
+
 st.divider()
 
 
-with st.expander("Further information about the data"):
+with st.expander("Browse avaliable data"):
     components.iframe('https://geo-dev-hub.maps.arcgis.com/apps/mapviewer/index.html?webmap=4c17c5dd3cba457e80e6c546bc73a3b1', height=500)
     
 st.divider()
