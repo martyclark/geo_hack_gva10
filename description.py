@@ -18,11 +18,13 @@ def get_random_color():
     return '#{:02x}{:02x}{:02x}'.format(r,g,b)
 
 
-def create_style_function(color):
+def create_style_function(fill_color, border_color=None):
     def style_function(feature):
         return {
-            'fillColor': color,
-            'color': None  # Hide the border
+            'fillColor': fill_color,
+            'color': border_color,  # Hide the border
+            'fillOpacity': 0.75,
+            'weight': 0.5
         }
     return style_function
 
@@ -57,31 +59,31 @@ for f in data:
 
 with col1:
     global_map_obj = st_folium(global_map, width=900, height=400)
-    city_map = folium.Map(location=[0, 0], zoom_start=8)
+    city_map = folium.Map(location=[0, 0], zoom_start=8, min_zoom=3, max_zoom=10)
     fg = folium.FeatureGroup(name="Markers")
     for marker in st.session_state["markers"]:
         fg.add_child(marker)
 
  # Update zoom level and center location when a marker is clicked
     if global_map_obj["last_object_clicked_popup"] is not None:
-        st.session_state["zoom"] = 9  # or any other zoom level you prefer
+        st.session_state["zoom"] = 8  # or any other zoom level you prefer
         # Get the coordinates of the clicked marker
         clicked_marker = data_helper.get_data_by_id(data, global_map_obj["last_object_clicked_popup"])
         if clicked_marker is not None:
             # Combine latitude and longitude into a list
             location = [clicked_marker['GCPNT_LAT'], clicked_marker['GCPNT_LON']]
-            city_map.fit_bounds([location, location], max_zoom=st.session_state["zoom"])
+            # city_map = folium.Map(location=location, zoom_start=st.session_state["zoom"], min_zoom=3, max_zoom=10)
+            city_map.fit_bounds([location, location], max_zoom=10)
 
     st_folium(
         city_map,
-        zoom=st.session_state["zoom"],
         key="city_map",
         feature_group_to_add=fg,
         height=400,
         width=900,
     )
 
-with col2:
+with (col2):
     col3, col4, col5 = st.columns(3)
     properties = data_helper.get_data_by_id(data, global_map_obj["last_object_clicked_popup"])
     if properties is not None:
@@ -112,10 +114,15 @@ with col2:
         if city_data is not None:
             for f in city_data:
                 if "colRange_2020" in f["properties"]:
-                    color = f["properties"]["colRange_2020"]
+                    if f["properties"]["colRange_2020"] is not None:
+                        fillColorProperties = f["properties"]["colRange_2020"]
+                        color = "#000000"
+                    else:
+                        fillColorProperties = None
+                        color = 'rgba(0, 0, 0, 0)'
                 else:
                     color = get_random_color()
-                style_function = create_style_function(color)
+                style_function = create_style_function(fill_color=fillColorProperties, border_color=color)
                 marker = folium.GeoJson(
                     f,
                     style_function=style_function
