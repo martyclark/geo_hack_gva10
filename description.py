@@ -62,8 +62,9 @@ global_map = folium.Map(location=[0, 0], zoom_start=5)
 
 # Add a 'Stamen Toner' TileLayer to the map
 folium.TileLayer(
-    'Stamen Toner',
-    attr='Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    tiles='https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png',
+    attr='Wikimedia maps',
+    name='Wikimedia Black and White'
 ).add_to(global_map)
 
 for f in data:
