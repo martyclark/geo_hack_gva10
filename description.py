@@ -60,6 +60,9 @@ if "markers_2050" not in st.session_state:
 
 global_map = folium.Map(location=[0, 0], zoom_start=5)
 
+# Add a 'Stamen Toner' TileLayer to the map
+folium.TileLayer('Stamen Toner').add_to(m)
+
 for f in data:
     facility_id = str(f["properties"]["ID_HDC_G0"])
     marker = folium.Marker(
