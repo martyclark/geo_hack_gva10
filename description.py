@@ -64,7 +64,7 @@ global_map = folium.Map(location=[0, 0], zoom_start=5)
 folium.TileLayer(
     'Stamen Toner',
     attr='Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-).add_to(m)
+).add_to(global_map)
 
 for f in data:
     facility_id = str(f["properties"]["ID_HDC_G0"])
