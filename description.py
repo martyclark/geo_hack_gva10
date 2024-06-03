@@ -78,7 +78,7 @@ for f in data:
     marker.add_to(global_map)
 
 with col1:
-    global_map_obj = st_folium(global_map, width=900, height=400, tiles='Stamen Toner')
+    global_map_obj = st_folium(global_map, width=900, height=400)
     city_map = folium.Map(location=[0, 0], zoom_start=8, min_zoom=3, max_zoom=10)
     fg_2020 = folium.FeatureGroup(name="2020", overlay=True, show=True)
     # fg_2030 = folium.FeatureGroup(name="2030", overlay=True, show=False)
