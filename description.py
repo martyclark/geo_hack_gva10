@@ -58,7 +58,9 @@ if "markers_2030" not in st.session_state:
 if "markers_2050" not in st.session_state:
     st.session_state["markers_2050"] = []
 
-global_map = folium.Map(location=[0, 0], zoom_start=5)
+#add global basemap, with stamen styling
+
+global_map = folium.Map(location=[0, 0], zoom_start=5, tiles='Stamen Toner')
 
 # Add a 'Stamen Toner' TileLayer to the map
 folium.TileLayer(
