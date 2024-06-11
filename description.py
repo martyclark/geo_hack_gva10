@@ -100,8 +100,7 @@ with st.container():
     with col6:
         city_map = folium.Map(location=[0, 0], zoom_start=8, min_zoom=3, max_zoom=10)
         fg_2020 = folium.FeatureGroup(name="2020", overlay=True, show=True)
-        for marker in st.session_state.get("markers_2020", []):
-            fg_2020.add_child(marker)
+        city_map.add_child(fg_2020)
 
         if global_map_obj.get("last_object_clicked_popup"):
             clicked_marker = data_helper.get_data_by_id(data, global_map_obj["last_object_clicked_popup"])
@@ -109,9 +108,6 @@ with st.container():
                 location = [clicked_marker['GCPNT_LAT'], clicked_marker['GCPNT_LON']]
                 city_map.fit_bounds([location, location], max_zoom=10)
 
-        city_map_obj = st_folium(city_map, key="city_map", width=800, height=400)
-
-    with col7:
         city_data = data_helper.get_heat_map_by_city_name(properties["UC_NM_MN"].lower())
         if city_data:
             st.session_state["markers_2020"] = []
@@ -131,8 +127,12 @@ with st.container():
                 marker.add_to(city_map)
                 st.session_state["markers_2020"].append(marker)
 
+        city_map_obj = st_folium(city_map, key="city_map", width=800, height=400)
+
+    with col7:
         properties = city_map_obj.get("last_object_clicked_popup")
-        st.write(properties)
+        if properties:
+            st.write(properties)
         
 # Download button
 with open(os.path.join("data", "Rome Urban Heat Resilience Profile.pdf"), "rb") as file:
