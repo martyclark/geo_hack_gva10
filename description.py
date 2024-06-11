@@ -171,7 +171,18 @@ st.divider()
 st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
 st.header("Historical Data")
 st.markdown('''
-The Historical Temperature Data section provides an in-depth analysis of past temperature trends within the city...
+## How to Interpret the Heat Map
+                
+### High-Risk Areas  
+                
+Look for regions shaded in red or dark orange, which signify zones with the highest temperatures and potential heat-related impacts.  
+### Moderate-Risk Areas  
+                
+Yellow and light orange areas indicate moderate temperatures and a need for some heat mitigation measures.  
+                
+### Low-Risk Areas  
+                
+Green and blue regions denote cooler areas with lower heat risk.
 ''')
 st.markdown("</div>", unsafe_allow_html=True)
 st.divider()
