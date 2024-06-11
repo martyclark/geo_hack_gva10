@@ -187,18 +187,18 @@ st.markdown("</div>", unsafe_allow_html=True)
 
 st.divider()
 
-    st.header("Historical data")
-    st.write('''The Historical Temperature Data section provides an in-depth analysis of past temperature trends within the city. This section includes comprehensive data on daily, monthly, and annual temperature variations over the past several decades. By examining historical temperature records, users can identify long-term trends, such as increasing average temperatures, the frequency and intensity of heatwaves, and seasonal patterns.''')  
-    st.subheader("Key Features")
-    st.write('''Temperature Trends: Visual graphs and charts showing how temperatures have changed over time. Heatwave Analysis: Data on the occurrence, duration, and severity of past heatwaves. Seasonal Patterns: Insights into temperature fluctuations across different seasons, highlighting periods of extreme heat. Comparison with Averages: Comparisons of historical temperatures with long-term climate averages to identify anomalies and significant changes.''')
+st.header("Historical data")
+st.write('''The Historical Temperature Data section provides an in-depth analysis of past temperature trends within the city. This section includes comprehensive data on daily, monthly, and annual temperature variations over the past several decades. By examining historical temperature records, users can identify long-term trends, such as increasing average temperatures, the frequency and intensity of heatwaves, and seasonal patterns.''')  
+st.subheader("Key Features")
+st.write('''Temperature Trends: Visual graphs and charts showing how temperatures have changed over time. Heatwave Analysis: Data on the occurrence, duration, and severity of past heatwaves. Seasonal Patterns: Insights into temperature fluctuations across different seasons, highlighting periods of extreme heat. Comparison with Averages: Comparisons of historical temperatures with long-term climate averages to identify anomalies and significant changes.''')
 
-    st.subheader("How to Use This Section")
+st.subheader("How to Use This Section")
 
-    st.write('''Users can leverage the historical temperature data to:
+st.write('''Users can leverage the historical temperature data to:
 
-    Understand Long-Term Changes: Gain insights into how the city's climate has evolved, helping to predict future trends.
-    Inform Planning and Policy: Use historical data to support urban planning decisions and the development of heat mitigation strategies.
-    Raise Awareness: Educate the community and stakeholders about historical temperature patterns and their implications for future heat resilience.''')
+Understand Long-Term Changes: Gain insights into how the city's climate has evolved, helping to predict future trends.
+Inform Planning and Policy: Use historical data to support urban planning decisions and the development of heat mitigation strategies.
+Raise Awareness: Educate the community and stakeholders about historical temperature patterns and their implications for future heat resilience.''')
 
 st.divider()
 
