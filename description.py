@@ -167,7 +167,6 @@ The heat map visually represents the distribution of extreme heat within the cit
 st.markdown("</div>", unsafe_allow_html=True)
 st.divider()
 
-# Historical data section
 st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
 st.header("Historical Data")
 st.markdown('''
@@ -185,37 +184,50 @@ Yellow and light orange areas indicate moderate temperatures and a need for some
 Green and blue regions denote cooler areas with lower heat risk.
 ''')
 st.markdown("</div>", unsafe_allow_html=True)
-st.divider()
 
-# Footer
-st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
-st.markdown('''
-© 2024 Global Heat Resilience Service. All Rights Reserved. For more information, please contact us at:
+ st.divider()
+
+    st.header("Historical data")
+    st.write('''The Historical Temperature Data section provides an in-depth analysis of past temperature trends within the city. This section includes comprehensive data on daily, monthly, and annual temperature variations over the past several decades. By examining historical temperature records, users can identify long-term trends, such as increasing average temperatures, the frequency and intensity of heatwaves, and seasonal patterns.''')  
+    st.subheader("Key Features")
+    st.write('''Temperature Trends: Visual graphs and charts showing how temperatures have changed over time. Heatwave Analysis: Data on the occurrence, duration, and severity of past heatwaves. Seasonal Patterns: Insights into temperature fluctuations across different seasons, highlighting periods of extreme heat. Comparison with Averages: Comparisons of historical temperatures with long-term climate averages to identify anomalies and significant changes.''')
+
+    st.subheader("How to Use This Section")
+
+    st.write('''Users can leverage the historical temperature data to:
+
+    Understand Long-Term Changes: Gain insights into how the city's climate has evolved, helping to predict future trends.
+    Inform Planning and Policy: Use historical data to support urban planning decisions and the development of heat mitigation strategies.
+    Raise Awareness: Educate the community and stakeholders about historical temperature patterns and their implications for future heat resilience.''')
+    st.divider()
+st.markdown(''' © 2024 Global Heat Resilience Service. All Rights Reserved. For more information, please contact us at:
+
 Email: heatresilience@geosec.org 
 Phone: +41 22 730 8251
-Visit our main website: Earth Observations
+
+Visit our main website: Earth Observations''')
+
+col9, col10 = st.columns([1,1])
+
+with col9:
+    st.write('''
+Useful Links:
+
+    Privacy Policy
+    Terms of Service
+    Help & Support
+    About Us
+    Data Sources
+    Partners
+''')
+    
+with col10:
+    st.write('''
+Follow Us:
+
+    Facebook
+    Twitter
+    LinkedIn 
 ''')
 
-col1, col2 = st.columns([1, 1])
-
-with col1:
-    st.markdown('''
-    ### Useful Links:
-    - Privacy Policy
-    - Terms of Service
-    - Help & Support
-    - About Us
-    - Data Sources
-    - Partners
-    ''')
-
-with col2:
-    st.markdown('''
-    ### Follow Us:
-    - Facebook
-    - Twitter
-    - LinkedIn 
-    ''')
-
 st.markdown("Global Heat Resilience Service is part of the Group on Earth Observations (GEO) community, dedicated to fostering global collaboration for a sustainable planet.")
-st.markdown("</div>", unsafe_allow_html=True)
