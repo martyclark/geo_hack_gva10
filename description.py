@@ -132,6 +132,7 @@ with st.container():
     with col7:
         properties = city_map_obj.get("last_object_clicked_popup")
         if properties:
+            st.subheader("District-level heat risk assessment")
             st.write(properties)
         
 # Download button
