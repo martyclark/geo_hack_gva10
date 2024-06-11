@@ -199,7 +199,9 @@ st.markdown("</div>", unsafe_allow_html=True)
     Understand Long-Term Changes: Gain insights into how the city's climate has evolved, helping to predict future trends.
     Inform Planning and Policy: Use historical data to support urban planning decisions and the development of heat mitigation strategies.
     Raise Awareness: Educate the community and stakeholders about historical temperature patterns and their implications for future heat resilience.''')
-    st.divider()
+
+st.divider()
+
 st.markdown(''' © 2024 Global Heat Resilience Service. All Rights Reserved. For more information, please contact us at:
 
 Email: heatresilience@geosec.org 
