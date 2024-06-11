@@ -112,22 +112,28 @@ with col1:
     st.markdown("</div>", unsafe_allow_html=True)
 
 # Display city information
-with col2:
+with (col2):
+    col3, col4, col5 = st.columns(3)
     properties = data_helper.get_data_by_id(data, global_map_obj["last_object_clicked_popup"])
-
+    heat_map_properties = data_helper.get_data_by_id(data, city_map_obj["last_object_clicked_popup"])
     if properties is not None:
         st.session_state["markers_2020"] = []
-        st.markdown("### City Information")
-        st.markdown("<p style='font-size: 14px;'><b>Country Name:</b> {}</p>".format(properties["CTR_MN_NM"]), unsafe_allow_html=True)
-        st.markdown("<p style='font-size: 14px;'><b>Total Area of Urban Centres in 2000:</b> {} sq km</p>".format(properties["H00_AREA"]), unsafe_allow_html=True)
-        st.markdown("<p style='font-size: 14px;'><b>City Name:</b> {}</p>".format(properties["UC_NM_MN"]), unsafe_allow_html=True)
-        st.markdown("<p style='font-size: 14px;'><b>Total Built-up Area in 2015:</b> {} sq km</p>".format(round(properties["B15"], 0)), unsafe_allow_html=True)
-        st.markdown("<p style='font-size: 14px;'><b>Area:</b> {} sq km</p>".format(properties["AREA"]), unsafe_allow_html=True)
-        st.markdown("<p style='font-size: 14px;'><b>Average Temperature for Epoch 2014:</b> {} °C</p>".format(round(properties["E_WR_T_14"], 1)), unsafe_allow_html=True)
-        st.markdown("<p style='font-size: 14px;'><b>Total Resident Population in 2015:</b> {}</p>".format(properties["P15"]), unsafe_allow_html=True)
-        st.markdown("<p style='font-size: 14px;'><b>Sum of GDP PPP Values for Year 2015:</b> {}</p>".format(properties["GDP15_SM"]), unsafe_allow_html=True)
-        st.markdown("<p style='font-size: 14px;'><b>Average Greenness in 2014:</b> {}</p>".format(properties["E_GR_AV14"]), unsafe_allow_html=True)
-        st.markdown("<p style='font-size: 14px;'><b>Maximum Magnitude of the Heatwaves:</b> {}</p>".format(properties["EX_HW_IDX"]), unsafe_allow_html=True)
+        with col3:
+            st.metric("Country name", properties["CTR_MN_NM"])
+            st.write("Total area of Urban Centres in 2000:")
+            st.subheader(properties["H00_AREA"])
+        with col4:
+            st.metric("City name", properties["UC_NM_MN"])
+            st.write("Total built-up area in 2015:")
+            st.subheader(round(properties["B15"],0))
+        with col5:
+            st.metric ("Area", properties["AREA"]) 
+            st.write("Average temperature for epoch 2014:")
+            st.subheader(round(properties["E_WR_T_14"], 1))
+        st.write("Total resident population in 2015:", properties["P15"])
+        st.write("Sum of GDP PPP values for year 2015:", properties["GDP15_SM"])
+        st.write("Average greenness estimated for 2014 located in the built-up area of epoch 2014:", properties["E_GR_AV14"])
+        st.write("Maximum magnitude of the heatwaves", properties["EX_HW_IDX"])
 
         city_data = data_helper.get_heat_map_by_city_name(properties["UC_NM_MN"].lower())
         if city_data is not None:
@@ -147,22 +153,55 @@ with col2:
                     f,
                     popup=folium.features.GeoJsonPopup(fields=["Name", "_median", "_median_2", "_median_3"],
                                                        aliases=[
-                                                           'Name',
-                                                           'Year 2020',
-                                                           'Year 2030',
-                                                           'Year 2050'],
+                                                       '<p style="font-size:12px;">Name</p>',
+                                                       '<p style="font-size:9px;">Year 2020</p>',
+                                                       '<p style="font-size:9px;">Year 2030</p>',
+                                                       '<p style="font-size:9px;">Year 2050</p>'],
                                                        labels=True),
                     style_function=style_function
                 )
                 marker.add_to(city_map)
                 st.session_state["markers_2020"].append(marker)
-
+                # # 2030
+                # if "colRange_2030" in f["properties"]:
+                #     if f["properties"]["colRange_2030"] is not None:
+                #         fillColorProperties = f["properties"]["colRange_2030"]
+                #         color = "#000000"
+                #     else:
+                #         fillColorProperties = None
+                #         color = 'rgba(0, 0, 0, 0)'
+                # else:
+                #     color = get_random_color()
+                # style_function = create_style_function(fill_color=fillColorProperties, border_color=color)
+                # marker = folium.GeoJson(
+                #     f,
+                #     popup=folium.features.GeoJsonPopup(fields=["_median", "_median_2", "_median_3"]),
+                #     style_function=style_function
+                # )
+                # marker.add_to(city_map)
+                # st.session_state["markers_2030"].append(marker)
+                # # 2050
+                # if "colRange_2050" in f["properties"]:
+                #     if f["properties"]["colRange_2050"] is not None:
+                #         fillColorProperties = f["properties"]["colRange_2050"]
+                #         color = "#000000"
+                #     else:
+                #         fillColorProperties = None
+                #         color = 'rgba(0, 0, 0, 0)'
+                # else:
+                #     color = get_random_color()
+                # style_function = create_style_function(fill_color=fillColorProperties, border_color=color)
+                # marker = folium.GeoJson(
+                #     f,
+                #     popup=folium.features.GeoJsonPopup(fields=["_median", "_median_2", "_median_3"]),
+                #     style_function=style_function
+                # )
+                # marker.add_to(city_map)
+                # st.session_state["markers_2050"].append(marker)
         properties = city_map_obj["last_object_clicked_popup"]
         st.write(properties)
-
-# Download button
 with open(os.path.join("data", "Rome Urban Heat Resilience Profile.pdf"), "rb") as file:
-    btn = st.download_button(label="Download data", data=file, file_name="Rome Urban Heat Resilience Profile.pdf", mime="application/pdf")
+    btn = st.download_button(label ="Download data", data = file, file_name = "Rome Urban Heat Resilience Profile.pdf", mime = "application/pdf")
 
 st.divider()
 
