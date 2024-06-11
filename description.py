@@ -156,7 +156,6 @@ st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
 st.header("Methodology")
 st.markdown('''
 The heat map visually represents the distribution of extreme heat within the city, highlighting areas with varying temperature intensities. Warmer colors, such as red and orange, indicate higher temperatures and greater heat risk, while cooler colors, such as blue and green, represent lower temperatures and lesser risk.
-    
     A heat risk index is a composite measure that quantifies the potential harm of high temperatures to a given population or area. It is created by integrating three key components:
 
     Hazard: This represents the intensity and duration of heat events, often measured using metrics like maximum daily temperature, heatwave duration, or the number of days exceeding a certain temperature threshold.
