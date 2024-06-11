@@ -185,7 +185,7 @@ Green and blue regions denote cooler areas with lower heat risk.
 ''')
 st.markdown("</div>", unsafe_allow_html=True)
 
- st.divider()
+st.divider()
 
     st.header("Historical data")
     st.write('''The Historical Temperature Data section provides an in-depth analysis of past temperature trends within the city. This section includes comprehensive data on daily, monthly, and annual temperature variations over the past several decades. By examining historical temperature records, users can identify long-term trends, such as increasing average temperatures, the frequency and intensity of heatwaves, and seasonal patterns.''')  
