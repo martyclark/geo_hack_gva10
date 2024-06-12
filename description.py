@@ -134,10 +134,14 @@ with st.container():
         city_map_obj = st_folium(city_map, key="city_map", width=800, height=400)
 
     with col7:
-        properties = city_map_obj.get("last_object_clicked_popup")
-        if properties:
-            st.subheader("District-level heat risk assessment")
-            st.write(properties)
+        if "last_object_clicked_popup" in st.session_state:
+            properties = st.session_state["last_object_clicked_popup"]
+            if properties:
+                st.subheader("District-level heat risk assessment")
+
+                # Convert properties to a DataFrame and display it as a table
+                df = pd.DataFrame(properties.items(), columns=["Property", "Value"])
+                st.table(df)
         
 # Download button
 with open(os.path.join("data", "Rome Urban Heat Resilience Profile.pdf"), "rb") as file:
