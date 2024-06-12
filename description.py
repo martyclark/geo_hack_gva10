@@ -138,10 +138,14 @@ with st.container():
             properties = st.session_state["last_object_clicked_popup"]
             if properties:
                 st.subheader("District-level heat risk assessment")
-
-                # Convert properties to a DataFrame and display it as a table
-                df = pd.DataFrame(properties.items(), columns=["Property", "Value"])
-                st.table(df)
+                
+                # Check if the properties structure is as expected
+                if isinstance(properties, dict):
+                    # Convert properties to a DataFrame and display it as a table
+                    df = pd.DataFrame(list(properties.items()), columns=["Property", "Value"])
+                    st.table(df)
+                else:
+                    st.write("No properties to display or unexpected data structure.")
         
 # Download button
 with open(os.path.join("data", "Rome Urban Heat Resilience Profile.pdf"), "rb") as file:
