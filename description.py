@@ -134,10 +134,11 @@ with st.container():
         city_map_obj = st_folium(city_map, key="city_map", width=800, height=400)
 
     with col7:
-        properties = city_map_obj.get("last_object_clicked_popup")
-        if properties:
-            st.subheader("District-level heat risk assessment")
-            formatted_properties = f"""
+        if "last_object_clicked_popup" in st.session_state:
+            properties = st.session_state["last_object_clicked_popup"]
+            if properties:
+                st.subheader("District-level heat risk assessment")
+                formatted_properties = f"""
                 **Name:** {properties.get('Name', 'N/A')}  
                 **Year 2020:** {properties.get('_median', 'N/A')}  
                 **Year 2030:** {properties.get('_median_2', 'N/A')}  
