@@ -139,10 +139,9 @@ with st.container():
             if properties:
                 st.subheader("District-level heat risk assessment")
                 
-                # Check if the properties structure is as expected
+                # Convert properties to a DataFrame and display it as a table
                 if isinstance(properties, dict):
-                    # Convert properties to a DataFrame and display it as a table
-                    df = pd.DataFrame(list(properties.items()), columns=["Property", "Value"])
+                    df = pd.DataFrame(properties.items(), columns=["Property", "Value"])
                     st.table(df)
                 else:
                     st.write("No properties to display or unexpected data structure.")
