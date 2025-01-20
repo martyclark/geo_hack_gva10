@@ -106,30 +106,39 @@ with st.container():
         fg_2020 = folium.FeatureGroup(name="2020", overlay=True, show=True)
         city_map.add_child(fg_2020)
 
-        if global_map_obj.get("last_object_clicked_popup"):
-            clicked_marker = data_helper.get_data_by_id(data, global_map_obj["last_object_clicked_popup"])
-            if clicked_marker:
-                location = [clicked_marker['GCPNT_LAT'], clicked_marker['GCPNT_LON']]
-                city_map.fit_bounds([location, location], max_zoom=10)
+        # Get clicked marker properties, with safety checks
+        clicked_popup = global_map_obj.get("last_object_clicked_popup")
+        clicked_marker = None
+        if clicked_popup:
+            clicked_marker = data_helper.get_data_by_id(data, clicked_popup)
+            
+        # Update map location if we have a valid marker
+        if clicked_marker and 'GCPNT_LAT' in clicked_marker and 'GCPNT_LON' in clicked_marker:
+            location = [clicked_marker['GCPNT_LAT'], clicked_marker['GCPNT_LON']]
+            city_map.fit_bounds([location, location], max_zoom=10)
 
-        city_data = data_helper.get_heat_map_by_city_name(properties["UC_NM_MN"].lower())
-        if city_data:
-            st.session_state["markers_2020"] = []
-            for f in city_data:
-                if "colRange_2020" in f["properties"]:
-                    fillColorProperties = f["properties"]["colRange_2020"] or 'rgba(0, 0, 0, 0)'
-                else:
-                    fillColorProperties = get_random_color()
-                style_function = create_style_function(fill_color=fillColorProperties, border_color="#000000")
-                marker = folium.GeoJson(
-                    f,
-                    popup=folium.features.GeoJsonPopup(fields=["Name", "_median", "_median_2", "_median_3"],
-                                                       aliases=['Name', 'Year 2020', 'Year 2030', 'Year 2050'],
-                                                       labels=True),
-                    style_function=style_function
-                )
-                marker.add_to(city_map)
-                st.session_state["markers_2020"].append(marker)
+        # Only try to get city data if we have valid properties
+        if clicked_marker and 'UC_NM_MN' in clicked_marker:
+            city_data = data_helper.get_heat_map_by_city_name(clicked_marker["UC_NM_MN"].lower())
+            if city_data:
+                st.session_state["markers_2020"] = []
+                for f in city_data:
+                    if "colRange_2020" in f["properties"]:
+                        fillColorProperties = f["properties"]["colRange_2020"] or 'rgba(0, 0, 0, 0)'
+                    else:
+                        fillColorProperties = get_random_color()
+                    style_function = create_style_function(fill_color=fillColorProperties, border_color="#000000")
+                    marker = folium.GeoJson(
+                        f,
+                        popup=folium.features.GeoJsonPopup(
+                            fields=["Name", "_median", "_median_2", "_median_3"],
+                            aliases=['Name', 'Year 2020', 'Year 2030', 'Year 2050'],
+                            labels=True
+                        ),
+                        style_function=style_function
+                    )
+                    marker.add_to(city_map)
+                    st.session_state["markers_2020"].append(marker)
 
         city_map_obj = st_folium(city_map, key="city_map", width=800, height=400)
 
